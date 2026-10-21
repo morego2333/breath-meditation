@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>一息 · 3D脑模型来源与许可</title>
+<style>body{max-width:720px;margin:60px auto;padding:0 24px;font:15px/1.9 system-ui,sans-serif;background:#0b191c;color:#c9ded7}h1{font-size:25px}a{color:#9edcc9}small{color:#8ea9a3}</style>
+<h1>3D 脑模型来源与许可</h1>
+<p>一息使用 <a href="https://github.com/aycibatuhan/nervous-system-atlas">Clinical Neuroanatomy Atlas / nervous-system-atlas</a> 的公开版皮层网格。图谱作者：Batuhan Ayci，© 2026。所用清单生成于 2026-09-20，坐标空间为 MNI152NLin2009cAsym。</p>
+<p>本项目选取62个CerebrA / DKT皮层分区，分发的GLB文件保持上游原始或上游LOD格式。运行时在完整脑体之外，另从部分网格截取三角面作局部着色；这些人工空间截取不是经验证的DMN功能掩膜，也不是论文激活范围。材质重着色、透视显示、半球展开、渐亮动画和示意连接均由一息实现；这些效果不代表实际测量的脑活动或真实纤维束。</p>
+<p>图谱生成数据的许可为 <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0</a>。这里分发的网格及其衍生模型按同一许可提供。原始数据来源 CerebrA 以 CC0 1.0 发布；所用MNI模板保留McGill署名和许可。</p>
+<p>CerebrA：Manera AL, Dadar M, Fonov V, Collins DL. CerebrA, registration and manual label correction of Mindboggle-101 atlas for MNI-ICBM152 template. Scientific Data 2020;7:237. <a href="https://doi.org/10.1038/s41597-020-0557-9">doi:10.1038/s41597-020-0557-9</a>。</p>
+<p>MNI152 template：© Louis Collins, McGill University；Fonov et al. 2011。Mindboggle / DKT 分区：Klein A, Tourville J. Frontiers in Neuroscience 2012;6:171。</p>
+<p><a href="manifest.json">模型清单与逐文件SHA-256</a> · <a href="LICENSE.txt">图谱数据许可</a> · <a href="CC-BY-SA-4.0.txt">CC BY-SA 4.0全文</a> · <a href="CC0-1.0.txt">CC0全文</a> · <a href="MNI.txt">MNI许可</a> · <a href="UPSTREAM-NOTICE.txt">上游署名与数据来源</a></p>
+<p>养成任务新增双侧杏仁核与双侧海马，合计66个模型。杏仁核来自 MASSP 分区，海马来自 MNI 模板的 FreeSurfer aseg 分割；模型保持上游 GLB 文件，来源细节和许可说明见清单的 deepSources / deepLicenses。运行时以空间切面逐步重着色，表示游戏进度。</p>
+<p>MASSP：© Pierre-Louis Bazin, University of Amsterdam，<a href="Apache-2.0.txt">Apache 2.0 许可及上游来源说明</a>。海马：MNI/McGill 模板，© Louis Collins；FreeSurfer 分割来源及许可说明见 <a href="MNI-FreeSurfer.txt">MNI-FreeSurfer</a>。这些来源说明沿用上游图谱的许可记录，不新增排他权利。</p>
+<small>脑区是群体模板的解剖结构，不是使用者个人的影像。DMN展示内侧额叶、后内侧、下顶叶、外侧颞叶及海马旁回的代表位置；海马在记忆迷宫任务中另行展示。未逐一分开全部DMN子系统，楔前叶不整块高亮。认知功能与解剖分区并非一一对应。</small>
+</html>

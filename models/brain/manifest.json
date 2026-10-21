@@ -1,0 +1,3375 @@
+{
+  "origin": "https://github.com/aycibatuhan/nervous-system-atlas",
+  "author": "Batuhan Ayci",
+  "atlasGenerated": "2026-09-20T10:21:07+00:00",
+  "space": "MNI152NLin2009cAsym",
+  "dataLicense": "CC-BY-SA-4.0",
+  "source": {
+    "name": "CerebrA: Mindboggle-101 DKT labels registered and hand-corrected on MNI-ICBM152 2009c Symmetric",
+    "license": "CC0-1.0",
+    "citation": "Manera AL, Dadar M, Fonov V, Collins DL. CerebrA, registration and manual label correction of Mindboggle-101 atlas for MNI-ICBM152 template. Sci Data 2020;7:237. doi:10.1038/s41597-020-0557-9 (dataset G-Node doi:10.12751/g-node.be5e62, released under CC0 1.0 Public Domain Dedication; files taken from the TemplateFlow mirror tpl-MNI152NLin2009cSym, whose template carries the MNI/McGill licence).",
+    "url": "https://templateflow.s3.amazonaws.com/tpl-MNI152NLin2009cSym/tpl-MNI152NLin2009cSym_res-1_atlas-CerebrA_dseg.nii.gz",
+    "urls": [
+      "https://templateflow.s3.amazonaws.com/tpl-MNI152NLin2009cSym/tpl-MNI152NLin2009cSym_res-1_atlas-CerebrA_dseg.nii.gz",
+      "https://templateflow.s3.amazonaws.com/tpl-MNI152NLin2009cSym/tpl-MNI152NLin2009cSym_atlas-CerebA_dseg.tsv",
+      "https://templateflow.s3.amazonaws.com/tpl-MNI152NLin2009cSym/tpl-MNI152NLin2009cSym_res-1_T1w.nii.gz",
+      "https://templateflow.s3.amazonaws.com/tpl-MNI152NLin2009cSym/LICENSE"
+    ],
+    "manual": false,
+    "generated": false,
+    "api": "",
+    "files": {
+      "tpl-MNI152NLin2009cSym_res-1_atlas-CerebrA_dseg.nii.gz": "c05df93e85b8f1c1446e56f45f0b6a28fdf6e5c8263ea8f365617254bf79ecbf",
+      "tpl-MNI152NLin2009cSym_atlas-CerebA_dseg.tsv": "cf0332a1c2601b5dd97b2f70423b064c762630d02052629f7112789f2fb6d2f7",
+      "tpl-MNI152NLin2009cSym_res-1_T1w.nii.gz": "317e112c49d086b971e4a26cba853b041ee210faf750a6fe02e04f15909b6b6b",
+      "LICENSE.txt": "5915d16f84d99c3cedc8290b09da72f6f92e5dde1ba1c9859ee186aa952b66a4"
+    }
+  },
+  "modifications": "Distributed GLB files are unmodified originals or upstream LOD meshes. At runtime, selected triangles are cropped for illustrative regional overlays while the anatomical body stays intact. These authored spatial crops are not validated functional-network masks. Colours and stage-specific light paths are illustrative, not measured activity or anatomical tracts.",
+  "meshes": [
+    {
+      "id": "dkt-caudal-anterior-cingulate-l",
+      "structureId": "gyrus-cingulate-anterior",
+      "name": "Caudal anterior cingulate cortex (L)",
+      "system": "cerebrum",
+      "subsystem": "lobe-limbic",
+      "side": "left",
+      "source": "cerebra",
+      "license": "CC0-1.0",
+      "nc": false,
+      "alignment": "warped-sym-to-asym",
+      "file": "dkt-caudal-anterior-cingulate-l.glb",
+      "bytes": 124824,
+      "triangles": 20000,
+      "compression": "meshopt",
+      "colour": "#bb8474",
+      "opacity": 1,
+      "visible": true,
+      "bbox": [
+        [
+          -12.8,
+          1.1,
+          12.5
+        ],
+        [
+          0.2,
+          42.7,
+          42.3
+        ]
+      ],
+      "centroid": [
+        -5.6,
+        19.9,
+        27.4
+      ],
+      "labels": {},
+      "ontology": {
+        "atlasLabels": [
+          81
+        ]
+      },
+      "lod": {
+        "file": "meshes/cerebrum/dkt-caudal-anterior-cingulate-l.lod.glb",
+        "bytes": 15396,
+        "triangles": 1970
+      },
+      "edition": "public",
+      "upstreamFile": "meshes/cerebrum/dkt-caudal-anterior-cingulate-l.glb",
+      "sha256": "5172892e4caa62ce3f5de5768dec271f46185ec7ec3ecf593ec96293a1f582b2"
+    },
+    {
+      "id": "dkt-caudal-anterior-cingulate-r",
+      "structureId": "gyrus-cingulate-anterior",
+      "name": "Caudal anterior cingulate cortex (R)",
+      "system": "cerebrum",
+      "subsystem": "lobe-limbic",
+      "side": "right",
+      "source": "cerebra",
+      "license": "CC0-1.0",
+      "nc": false,
+      "alignment": "warped-sym-to-asym",
+      "file": "dkt-caudal-anterior-cingulate-r.glb",
+      "bytes": 125664,
+      "triangles": 20000,
+      "compression": "meshopt",
+      "colour": "#bb8474",
+      "opacity": 1,
+      "visible": true,
+      "bbox": [
+        [
+          0.5,
+          1.1,
+          12.6
+        ],
+        [
+          13.7,
+          41.7,
+          43.5
+        ]
+      ],
+      "centroid": [
+        5.8,
+        19.8,
+        28.3
+      ],
+      "labels": {},
+      "ontology": {
+        "atlasLabels": [
+          30
+        ]
+      },
+      "lod": {
+        "file": "meshes/cerebrum/dkt-caudal-anterior-cingulate-r.lod.glb",
+        "bytes": 16688,
+        "triangles": 2170
+      },
+      "edition": "public",
+      "upstreamFile": "meshes/cerebrum/dkt-caudal-anterior-cingulate-r.glb",
+      "sha256": "11ebbc18a413ec09ac0b809812a8b6163b441349a43cad08453e17d61aa64738"
+    },
+    {
+      "id": "dkt-caudal-middle-frontal-l",
+      "structureId": "gyrus-middle-frontal",
+      "name": "Caudal middle frontal gyrus (L)",
+      "system": "cerebrum",
+      "subsystem": "lobe-frontal",
+      "side": "left",
+      "source": "cerebra",
+      "license": "CC0-1.0",
+      "nc": false,
+      "alignment": "warped-sym-to-asym",
+      "file": "dkt-caudal-middle-frontal-l.glb",
+      "bytes": 132148,
+      "triangles": 20000,
+      "compression": "meshopt",
+      "colour": "#d4a29c",
+      "opacity": 1,
+      "visible": true,
+      "bbox": [
+        [
+          -55.3,
+          -8.5,
+          25.3
+        ],
+        [
+          -21.5,
+          33.2,
+          66.5
+        ]
+      ],
+      "centroid": [
+        -36.2,
+        11.4,
+        46.3
+      ],
+      "labels": {},
+      "ontology": {
+        "atlasLabels": [
+          93
+        ]
+      },
+      "lod": {
+        "file": "meshes/cerebrum/dkt-caudal-middle-frontal-l.lod.glb",
+        "bytes": 21032,
+        "triangles": 2702
+      },
+      "edition": "public",
+      "upstreamFile": "meshes/cerebrum/dkt-caudal-middle-frontal-l.glb",
+      "sha256": "558ceaf60523761a522daedd1be399ea880f448f8ee3ba47a0609157b91e8685"
+    },
+    {
+      "id": "dkt-caudal-middle-frontal-r",
+      "structureId": "gyrus-middle-frontal",
+      "name": "Caudal middle frontal gyrus (R)",
+      "system": "cerebrum",
+      "subsystem": "lobe-frontal",
+      "side": "right",
+      "source": "cerebra",
+      "license": "CC0-1.0",
+      "nc": false,
+      "alignment": "warped-sym-to-asym",
+      "file": "dkt-caudal-middle-frontal-r.glb",
+      "bytes": 132084,
+      "triangles": 20000,
+      "compression": "meshopt",
+      "colour": "#d4a29c",
+      "opacity": 1,
+      "visible": true,
+      "bbox": [
+        [
+          21.4,
+          -6.6,
+          24.8
+        ],
+        [
+          54.4,
+          35.2,
+          66.5
+        ]
+      ],
+      "centroid": [
+        35.9,
+        13.6,
+        46.1
+      ],
+      "labels": {},
+      "ontology": {
+        "atlasLabels": [
+          42
+        ]
+      },
+      "lod": {
+        "file": "meshes/cerebrum/dkt-caudal-middle-frontal-r.lod.glb",
+        "bytes": 21276,
+        "triangles": 2732
+      },
+      "edition": "public",
+      "upstreamFile": "meshes/cerebrum/dkt-caudal-middle-frontal-r.glb",
+      "sha256": "82a0fcfe6369fa8aaa035f75d9b3db2f36bfd8aaf7e51f248f827ed289849d79"
+    },
+    {
+      "id": "dkt-cuneus-l",
+      "structureId": "cuneus",
+      "name": "Cuneus (L)",
+      "system": "cerebrum",
+      "subsystem": "lobe-occipital",
+      "side": "left",
+      "source": "cerebra",
+      "license": "CC0-1.0",
+      "nc": false,
+      "alignment": "warped-sym-to-asym",
+      "file": "dkt-cuneus-l.glb",
+      "bytes": 20664,
+      "triangles": 2718,
+      "compression": "meshopt",
+      "colour": "#ceb8af",
+      "opacity": 1,
+      "visible": true,
+      "bbox": [
+        [
+          -20.5,
+          -101.1,
+          -1.2
+        ],
+        [
+          1.5,
+          -61.6,
+          44.4
+        ]
+      ],
+      "centroid": [
+        -8.4,
+        -82.5,
+        22.8
+      ],
+      "labels": {},
+      "ontology": {
+        "atlasLabels": [
+          94
+        ]
+      },
+      "lod": {
+        "file": "meshes/cerebrum/dkt-cuneus-l.lod.glb",
+        "bytes": 20664,
+        "triangles": 2718
+      },
+      "edition": "public",
+      "upstreamFile": "meshes/cerebrum/dkt-cuneus-l.lod.glb",
+      "sha256": "82332bcfc565c852d3389c48ebeeef172cd3f85cbbf0dd568c2c860639eb35e5"
+    },
+    {
+      "id": "dkt-cuneus-r",
+      "structureId": "cuneus",
+      "name": "Cuneus (R)",
+      "system": "cerebrum",
+      "subsystem": "lobe-occipital",
+      "side": "right",
+      "source": "cerebra",
+      "license": "CC0-1.0",
+      "nc": false,
+      "alignment": "warped-sym-to-asym",
+      "file": "dkt-cuneus-r.glb",
+      "bytes": 20908,
+      "triangles": 2746,
+      "compression": "meshopt",
+      "colour": "#ceb8af",
+      "opacity": 1,
+      "visible": true,
+      "bbox": [
+        [
+          0.3,
+          -99.3,
+          0.4
+        ],
+        [
+          22.6,
+          -57.7,
+          44.5
+        ]
+      ],
+      "centroid": [
+        11.7,
+        -79.5,
+        24.6
+      ],
+      "labels": {},
+      "ontology": {
+        "atlasLabels": [
+          43
+        ]
+      },
+      "lod": {
+        "file": "meshes/cerebrum/dkt-cuneus-r.lod.glb",
+        "bytes": 20908,
+        "triangles": 2746
+      },
+      "edition": "public",
+      "upstreamFile": "meshes/cerebrum/dkt-cuneus-r.lod.glb",
+      "sha256": "aeb266bfe15e291807aa607d141a597f42ca6c33e5e82380dfaf752fa7243d2f"
+    },
+    {
+      "id": "dkt-entorhinal-l",
+      "structureId": "gyrus-parahippocampal-anterior",
+      "name": "Entorhinal cortex (L)",
+      "system": "cerebrum",
+      "subsystem": "lobe-limbic",
+      "side": "left",
+      "source": "cerebra",
+      "license": "CC0-1.0",
+      "nc": false,
+      "alignment": "warped-sym-to-asym",
+      "file": "dkt-entorhinal-l.glb",
+      "bytes": 20160,
+      "triangles": 2618,
+      "compression": "meshopt",
+      "colour": "#e5cacc",
+      "opacity": 1,
+      "visible": true,
+      "bbox": [
+        [
+          -34.5,
+          -18.9,
+          -42.6
+        ],
+        [
+          -10.5,
+          6,
+          -19.5
+        ]
+      ],
+      "centroid": [
+        -22.8,
+        -5.6,
+        -31
+      ],
+      "labels": {},
+      "ontology": {
+        "atlasLabels": [
+          87
+        ]
+      },
+      "lod": {
+        "file": "meshes/cerebrum/dkt-entorhinal-l.lod.glb",
+        "bytes": 20160,
+        "triangles": 2618
+      },
+      "edition": "public",
+      "upstreamFile": "meshes/cerebrum/dkt-entorhinal-l.lod.glb",
+      "sha256": "559025ba309d682f5b8b7ffcfc54eb78aaf7a17e8a71639fe4ac421b6c6c9e92"
+    },
+    {
+      "id": "dkt-entorhinal-r",
+      "structureId": "gyrus-parahippocampal-anterior",
+      "name": "Entorhinal cortex (R)",
+      "system": "cerebrum",
+      "subsystem": "lobe-limbic",
+      "side": "right",
+      "source": "cerebra",
+      "license": "CC0-1.0",
+      "nc": false,
+      "alignment": "warped-sym-to-asym",
+      "file": "dkt-entorhinal-r.glb",
+      "bytes": 19832,
+      "triangles": 2584,
+      "compression": "meshopt",
+      "colour": "#e5cacc",
+      "opacity": 1,
+      "visible": true,
+      "bbox": [
+        [
+          10.5,
+          -18.7,
+          -42.6
+        ],
+        [
+          33.2,
+          7.6,
+          -19.3
+        ]
+      ],
+      "centroid": [
+        21.8,
+        -4.7,
+        -31.1
+      ],
+      "labels": {},
+      "ontology": {
+        "atlasLabels": [
+          36
+        ]
+      },
+      "lod": {
+        "file": "meshes/cerebrum/dkt-entorhinal-r.lod.glb",
+        "bytes": 19832,
+        "triangles": 2584
+      },
+      "edition": "public",
+      "upstreamFile": "meshes/cerebrum/dkt-entorhinal-r.lod.glb",
+      "sha256": "e28c5f7b9fd698c5ddd56f181f10ed57e0dee34066af2a3fd2cdb5529f711933"
+    },
+    {
+      "id": "dkt-fusiform-l",
+      "structureId": "cortex-temporal-fusiform-posterior",
+      "name": "Fusiform gyrus (L)",
+      "system": "cerebrum",
+      "subsystem": "lobe-temporal",
+      "side": "left",
+      "source": "cerebra",
+      "license": "CC0-1.0",
+      "nc": false,
+      "alignment": "warped-sym-to-asym",
+      "file": "dkt-fusiform-l.glb",
+      "bytes": 19832,
+      "triangles": 2670,
+      "compression": "meshopt",
+      "colour": "#c2a769",
+      "opacity": 1,
+      "visible": true,
+      "bbox": [
+        [
+          -51,
+          -80.5,
+          -44.6
+        ],
+        [
+          -21.5,
+          1.9,
+          -2.3
+        ]
+      ],
+      "centroid": [
+        -35.9,
+        -43.2,
+        -20
+      ],
+      "labels": {},
+      "ontology": {
+        "atlasLabels": [
+          75
+        ]
+      },
+      "lod": {
+        "file": "meshes/cerebrum/dkt-fusiform-l.lod.glb",
+        "bytes": 19832,
+        "triangles": 2670
+      },
+      "edition": "public",
+      "upstreamFile": "meshes/cerebrum/dkt-fusiform-l.lod.glb",
+      "sha256": "cbd02f2886eca5a014dba25824e3e89b3295327c67e49cb57ac945b2c6a7cb1e"
+    },
+    {
+      "id": "dkt-fusiform-r",
+      "structureId": "cortex-temporal-fusiform-posterior",
+      "name": "Fusiform gyrus (R)",
+      "system": "cerebrum",
+      "subsystem": "lobe-temporal",
+      "side": "right",
+      "source": "cerebra",
+      "license": "CC0-1.0",
+      "nc": false,
+      "alignment": "warped-sym-to-asym",
+      "file": "dkt-fusiform-r.glb",
+      "bytes": 19916,
+      "triangles": 2662,
+      "compression": "meshopt",
+      "colour": "#c2a769",
+      "opacity": 1,
+      "visible": true,
+      "bbox": [
+        [
+          21.5,
+          -80.1,
+          -44.5
+        ],
+        [
+          51.1,
+          3.2,
+          -1.7
+        ]
+      ],
+      "centroid": [
+        34.9,
+        -42.6,
+        -19.8
+      ],
+      "labels": {},
+      "ontology": {
+        "atlasLabels": [
+          24
+        ]
+      },
+      "lod": {
+        "file": "meshes/cerebrum/dkt-fusiform-r.lod.glb",
+        "bytes": 19916,
+        "triangles": 2662
+      },
+      "edition": "public",
+      "upstreamFile": "meshes/cerebrum/dkt-fusiform-r.lod.glb",
+      "sha256": "fc1322eca63057086cc299aaeddd7f0d3c65ec29508784ffd13a8ce37328bbb2"
+    },
+    {
+      "id": "dkt-inferior-parietal-l",
+      "structureId": "gyrus-angular",
+      "name": "Inferior parietal lobule (angular gyrus) (L)",
+      "system": "cerebrum",
+      "subsystem": "lobe-parietal",
+      "side": "left",
+      "source": "cerebra",
+      "license": "CC0-1.0",
+      "nc": false,
+      "alignment": "warped-sym-to-asym",
+      "file": "dkt-inferior-parietal-l.glb",
+      "bytes": 22280,
+      "triangles": 2872,
+      "compression": "meshopt",
+      "colour": "#b69084",
+      "opacity": 1,
+      "visible": true,
+      "bbox": [
+        [
+          -67.3,
+          -93.5,
+          9.5
+        ],
+        [
+          -24.5,
+          -41.1,
+          58.7
+        ]
+      ],
+      "centroid": [
+        -43.3,
+        -65.1,
+        31.4
+      ],
+      "labels": {},
+      "ontology": {
+        "atlasLabels": [
+          61
+        ]
+      },
+      "lod": {
+        "file": "meshes/cerebrum/dkt-inferior-parietal-l.lod.glb",
+        "bytes": 22280,
+        "triangles": 2872
+      },
+      "edition": "public",
+      "upstreamFile": "meshes/cerebrum/dkt-inferior-parietal-l.lod.glb",
+      "sha256": "c65f9eadc9380c934ae12f29efa42290b5a72da8aa39030e4f8fa1d191654c12"
+    },
+    {
+      "id": "dkt-inferior-parietal-r",
+      "structureId": "gyrus-angular",
+      "name": "Inferior parietal lobule (angular gyrus) (R)",
+      "system": "cerebrum",
+      "subsystem": "lobe-parietal",
+      "side": "right",
+      "source": "cerebra",
+      "license": "CC0-1.0",
+      "nc": false,
+      "alignment": "warped-sym-to-asym",
+      "file": "dkt-inferior-parietal-r.glb",
+      "bytes": 21896,
+      "triangles": 2836,
+      "compression": "meshopt",
+      "colour": "#b69084",
+      "opacity": 1,
+      "visible": true,
+      "bbox": [
+        [
+          27.5,
+          -89.5,
+          8.9
+        ],
+        [
+          68.3,
+          -35.8,
+          58.8
+        ]
+      ],
+      "centroid": [
+        44.3,
+        -62.3,
+        31.3
+      ],
+      "labels": {},
+      "ontology": {
+        "atlasLabels": [
+          10
+        ]
+      },
+      "lod": {
+        "file": "meshes/cerebrum/dkt-inferior-parietal-r.lod.glb",
+        "bytes": 21896,
+        "triangles": 2836
+      },
+      "edition": "public",
+      "upstreamFile": "meshes/cerebrum/dkt-inferior-parietal-r.lod.glb",
+      "sha256": "31b6a32803be0dba12623edbf7e1904ebfe1e3f7218adf082549f09a58d74df5"
+    },
+    {
+      "id": "dkt-inferior-temporal-l",
+      "structureId": "gyrus-inferior-temporal-posterior",
+      "name": "Inferior temporal gyrus (L)",
+      "system": "cerebrum",
+      "subsystem": "lobe-temporal",
+      "side": "left",
+      "source": "cerebra",
+      "license": "CC0-1.0",
+      "nc": false,
+      "alignment": "warped-sym-to-asym",
+      "file": "dkt-inferior-temporal-l.glb",
+      "bytes": 20060,
+      "triangles": 2684,
+      "compression": "meshopt",
+      "colour": "#e7e1c3",
+      "opacity": 1,
+      "visible": true,
+      "bbox": [
+        [
+          -68.4,
+          -65.7,
+          -51.9
+        ],
+        [
+          -20.3,
+          13.2,
+          -3.7
+        ]
+      ],
+      "centroid": [
+        -47.3,
+        -22.8,
+        -29.9
+      ],
+      "labels": {},
+      "ontology": {
+        "atlasLabels": [
+          54
+        ]
+      },
+      "lod": {
+        "file": "meshes/cerebrum/dkt-inferior-temporal-l.lod.glb",
+        "bytes": 20060,
+        "triangles": 2684
+      },
+      "edition": "public",
+      "upstreamFile": "meshes/cerebrum/dkt-inferior-temporal-l.lod.glb",
+      "sha256": "bd1725d3caf54f0a12b86cd21c0b9351d452b3953adc1f4f5ff56ceb48eafad5"
+    },
+    {
+      "id": "dkt-inferior-temporal-r",
+      "structureId": "gyrus-inferior-temporal-posterior",
+      "name": "Inferior temporal gyrus (R)",
+      "system": "cerebrum",
+      "subsystem": "lobe-temporal",
+      "side": "right",
+      "source": "cerebra",
+      "license": "CC0-1.0",
+      "nc": false,
+      "alignment": "warped-sym-to-asym",
+      "file": "dkt-inferior-temporal-r.glb",
+      "bytes": 19748,
+      "triangles": 2624,
+      "compression": "meshopt",
+      "colour": "#e7e1c3",
+      "opacity": 1,
+      "visible": true,
+      "bbox": [
+        [
+          18.3,
+          -63.6,
+          -52.4
+        ],
+        [
+          68.5,
+          14.3,
+          -4.3
+        ]
+      ],
+      "centroid": [
+        48.4,
+        -23.7,
+        -28.8
+      ],
+      "labels": {},
+      "ontology": {
+        "atlasLabels": [
+          3
+        ]
+      },
+      "lod": {
+        "file": "meshes/cerebrum/dkt-inferior-temporal-r.lod.glb",
+        "bytes": 19748,
+        "triangles": 2624
+      },
+      "edition": "public",
+      "upstreamFile": "meshes/cerebrum/dkt-inferior-temporal-r.lod.glb",
+      "sha256": "2dc3b671909e5308ecafd876f1371bbd63372d95b75820c5874d8e17a5d3976a"
+    },
+    {
+      "id": "dkt-insula-l",
+      "structureId": "insula",
+      "name": "Insular cortex (L)",
+      "system": "cerebrum",
+      "subsystem": "lobe-insula",
+      "side": "left",
+      "source": "cerebra",
+      "license": "CC0-1.0",
+      "nc": false,
+      "alignment": "warped-sym-to-asym",
+      "file": "dkt-insula-l.glb",
+      "bytes": 129912,
+      "triangles": 20000,
+      "compression": "meshopt",
+      "colour": "#c7aa82",
+      "opacity": 1,
+      "visible": true,
+      "bbox": [
+        [
+          -45.9,
+          -30.2,
+          -18.1
+        ],
+        [
+          -26.5,
+          30.6,
+          21.4
+        ]
+      ],
+      "centroid": [
+        -36.3,
+        0.2,
+        1.9
+      ],
+      "labels": {},
+      "ontology": {
+        "atlasLabels": [
+          74
+        ]
+      },
+      "lod": {
+        "file": "meshes/cerebrum/dkt-insula-l.lod.glb",
+        "bytes": 20552,
+        "triangles": 2758
+      },
+      "edition": "public",
+      "upstreamFile": "meshes/cerebrum/dkt-insula-l.glb",
+      "sha256": "08e39c021dd19c0d607882ad1de552eaf8130dea207bcae7c283c1400f3f9c71"
+    },
+    {
+      "id": "dkt-insula-r",
+      "structureId": "insula",
+      "name": "Insular cortex (R)",
+      "system": "cerebrum",
+      "subsystem": "lobe-insula",
+      "side": "right",
+      "source": "cerebra",
+      "license": "CC0-1.0",
+      "nc": false,
+      "alignment": "warped-sym-to-asym",
+      "file": "dkt-insula-r.glb",
+      "bytes": 130200,
+      "triangles": 20000,
+      "compression": "meshopt",
+      "colour": "#c7aa82",
+      "opacity": 1,
+      "visible": true,
+      "bbox": [
+        [
+          26.5,
+          -27.3,
+          -18.1
+        ],
+        [
+          45.9,
+          30.4,
+          21.4
+        ]
+      ],
+      "centroid": [
+        36.6,
+        1.8,
+        1.9
+      ],
+      "labels": {},
+      "ontology": {
+        "atlasLabels": [
+          23
+        ]
+      },
+      "lod": {
+        "file": "meshes/cerebrum/dkt-insula-r.lod.glb",
+        "bytes": 20276,
+        "triangles": 2694
+      },
+      "edition": "public",
+      "upstreamFile": "meshes/cerebrum/dkt-insula-r.glb",
+      "sha256": "d8caaa62805f989b57649cc0eed65bd7d981147daa75f08c2efed9a3a7801f4f"
+    },
+    {
+      "id": "dkt-isthmus-cingulate-l",
+      "structureId": "gyrus-cingulate-posterior",
+      "name": "Isthmus of the cingulate gyrus (L)",
+      "system": "cerebrum",
+      "subsystem": "lobe-limbic",
+      "side": "left",
+      "source": "cerebra",
+      "license": "CC0-1.0",
+      "nc": false,
+      "alignment": "warped-sym-to-asym",
+      "file": "dkt-isthmus-cingulate-l.glb",
+      "bytes": 18076,
+      "triangles": 2380,
+      "compression": "meshopt",
+      "colour": "#d8bfb0",
+      "opacity": 1,
+      "visible": true,
+      "bbox": [
+        [
+          -22.4,
+          -59.1,
+          -5.9
+        ],
+        [
+          -0.5,
+          -33.1,
+          37.5
+        ]
+      ],
+      "centroid": [
+        -9,
+        -46,
+        17.8
+      ],
+      "labels": {},
+      "ontology": {
+        "atlasLabels": [
+          84
+        ]
+      },
+      "lod": {
+        "file": "meshes/cerebrum/dkt-isthmus-cingulate-l.lod.glb",
+        "bytes": 18076,
+        "triangles": 2380
+      },
+      "edition": "public",
+      "upstreamFile": "meshes/cerebrum/dkt-isthmus-cingulate-l.lod.glb",
+      "sha256": "5e44e8817b2eaaf9f4bf2897bd8bc21ecbf4b67fcc694d78b194d45155f6c97a"
+    },
+    {
+      "id": "dkt-isthmus-cingulate-r",
+      "structureId": "gyrus-cingulate-posterior",
+      "name": "Isthmus of the cingulate gyrus (R)",
+      "system": "cerebrum",
+      "subsystem": "lobe-limbic",
+      "side": "right",
+      "source": "cerebra",
+      "license": "CC0-1.0",
+      "nc": false,
+      "alignment": "warped-sym-to-asym",
+      "file": "dkt-isthmus-cingulate-r.glb",
+      "bytes": 17892,
+      "triangles": 2348,
+      "compression": "meshopt",
+      "colour": "#d8bfb0",
+      "opacity": 1,
+      "visible": true,
+      "bbox": [
+        [
+          0.5,
+          -56.3,
+          -6.3
+        ],
+        [
+          23.3,
+          -32.8,
+          37.5
+        ]
+      ],
+      "centroid": [
+        10.1,
+        -44.8,
+        16.2
+      ],
+      "labels": {},
+      "ontology": {
+        "atlasLabels": [
+          33
+        ]
+      },
+      "lod": {
+        "file": "meshes/cerebrum/dkt-isthmus-cingulate-r.lod.glb",
+        "bytes": 17892,
+        "triangles": 2348
+      },
+      "edition": "public",
+      "upstreamFile": "meshes/cerebrum/dkt-isthmus-cingulate-r.lod.glb",
+      "sha256": "879ceb5825e260696d97fc3d519b9a3fffb9a1944f4c1e62deb767b74c7fc94f"
+    },
+    {
+      "id": "dkt-lateral-occipital-l",
+      "structureId": "cortex-lateral-occipital-superior",
+      "name": "Lateral occipital cortex (L)",
+      "system": "cerebrum",
+      "subsystem": "lobe-occipital",
+      "side": "left",
+      "source": "cerebra",
+      "license": "CC0-1.0",
+      "nc": false,
+      "alignment": "warped-sym-to-asym",
+      "file": "dkt-lateral-occipital-l.glb",
+      "bytes": 22564,
+      "triangles": 2916,
+      "compression": "meshopt",
+      "colour": "#c7a3a9",
+      "opacity": 1,
+      "visible": true,
+      "bbox": [
+        [
+          -56.3,
+          -107.8,
+          -21.5
+        ],
+        [
+          -1.5,
+          -64.2,
+          32.3
+        ]
+      ],
+      "centroid": [
+        -30,
+        -87.6,
+        1.6
+      ],
+      "labels": {},
+      "ontology": {
+        "atlasLabels": [
+          85
+        ]
+      },
+      "lod": {
+        "file": "meshes/cerebrum/dkt-lateral-occipital-l.lod.glb",
+        "bytes": 22564,
+        "triangles": 2916
+      },
+      "edition": "public",
+      "upstreamFile": "meshes/cerebrum/dkt-lateral-occipital-l.lod.glb",
+      "sha256": "6f45eab725eae3939bcdf5aa716965735456b4251eccde048eb970c5805fd3a6"
+    },
+    {
+      "id": "dkt-lateral-occipital-r",
+      "structureId": "cortex-lateral-occipital-superior",
+      "name": "Lateral occipital cortex (R)",
+      "system": "cerebrum",
+      "subsystem": "lobe-occipital",
+      "side": "right",
+      "source": "cerebra",
+      "license": "CC0-1.0",
+      "nc": false,
+      "alignment": "warped-sym-to-asym",
+      "file": "dkt-lateral-occipital-r.glb",
+      "bytes": 22716,
+      "triangles": 2936,
+      "compression": "meshopt",
+      "colour": "#c7a3a9",
+      "opacity": 1,
+      "visible": true,
+      "bbox": [
+        [
+          6.4,
+          -106.5,
+          -19.5
+        ],
+        [
+          56.5,
+          -62.5,
+          31.9
+        ]
+      ],
+      "centroid": [
+        31.3,
+        -85.7,
+        1.6
+      ],
+      "labels": {},
+      "ontology": {
+        "atlasLabels": [
+          34
+        ]
+      },
+      "lod": {
+        "file": "meshes/cerebrum/dkt-lateral-occipital-r.lod.glb",
+        "bytes": 22716,
+        "triangles": 2936
+      },
+      "edition": "public",
+      "upstreamFile": "meshes/cerebrum/dkt-lateral-occipital-r.lod.glb",
+      "sha256": "af956201a2153f4f792304cf225d46ce6e5fa37bad858d3f4bdda17826ed89db"
+    },
+    {
+      "id": "dkt-lateral-orbitofrontal-l",
+      "structureId": "cortex-orbitofrontal",
+      "name": "Lateral orbitofrontal cortex (L)",
+      "system": "cerebrum",
+      "subsystem": "lobe-frontal",
+      "side": "left",
+      "source": "cerebra",
+      "license": "CC0-1.0",
+      "nc": false,
+      "alignment": "warped-sym-to-asym",
+      "file": "dkt-lateral-orbitofrontal-l.glb",
+      "bytes": 20252,
+      "triangles": 2686,
+      "compression": "meshopt",
+      "colour": "#ddb5b1",
+      "opacity": 1,
+      "visible": true,
+      "bbox": [
+        [
+          -43.9,
+          3.1,
+          -31.5
+        ],
+        [
+          -5.5,
+          68.5,
+          -6.2
+        ]
+      ],
+      "centroid": [
+        -23.5,
+        36.3,
+        -18.3
+      ],
+      "labels": {},
+      "ontology": {
+        "atlasLabels": [
+          58
+        ]
+      },
+      "lod": {
+        "file": "meshes/cerebrum/dkt-lateral-orbitofrontal-l.lod.glb",
+        "bytes": 20252,
+        "triangles": 2686
+      },
+      "edition": "public",
+      "upstreamFile": "meshes/cerebrum/dkt-lateral-orbitofrontal-l.lod.glb",
+      "sha256": "f342192581069ac0615febdac0ad0df2def237c01f181ca7ea1c847419ea20ff"
+    },
+    {
+      "id": "dkt-lateral-orbitofrontal-r",
+      "structureId": "cortex-orbitofrontal",
+      "name": "Lateral orbitofrontal cortex (R)",
+      "system": "cerebrum",
+      "subsystem": "lobe-frontal",
+      "side": "right",
+      "source": "cerebra",
+      "license": "CC0-1.0",
+      "nc": false,
+      "alignment": "warped-sym-to-asym",
+      "file": "dkt-lateral-orbitofrontal-r.glb",
+      "bytes": 19856,
+      "triangles": 2622,
+      "compression": "meshopt",
+      "colour": "#ddb5b1",
+      "opacity": 1,
+      "visible": true,
+      "bbox": [
+        [
+          4.6,
+          4.7,
+          -31.5
+        ],
+        [
+          42.8,
+          68.9,
+          -5.8
+        ]
+      ],
+      "centroid": [
+        23.1,
+        37,
+        -18.3
+      ],
+      "labels": {},
+      "ontology": {
+        "atlasLabels": [
+          7
+        ]
+      },
+      "lod": {
+        "file": "meshes/cerebrum/dkt-lateral-orbitofrontal-r.lod.glb",
+        "bytes": 19856,
+        "triangles": 2622
+      },
+      "edition": "public",
+      "upstreamFile": "meshes/cerebrum/dkt-lateral-orbitofrontal-r.lod.glb",
+      "sha256": "3a5b2cac6a853a5045b963ba970a81350292206edf051be25a3f34a7427b0c56"
+    },
+    {
+      "id": "dkt-lingual-l",
+      "structureId": "gyrus-lingual",
+      "name": "Lingual gyrus (L)",
+      "system": "cerebrum",
+      "subsystem": "lobe-occipital",
+      "side": "left",
+      "source": "cerebra",
+      "license": "CC0-1.0",
+      "nc": false,
+      "alignment": "warped-sym-to-asym",
+      "file": "dkt-lingual-l.glb",
+      "bytes": 20352,
+      "triangles": 2706,
+      "compression": "meshopt",
+      "colour": "#b17f97",
+      "opacity": 1,
+      "visible": true,
+      "bbox": [
+        [
+          -32.6,
+          -100.5,
+          -20.5
+        ],
+        [
+          0.5,
+          -39.1,
+          11.4
+        ]
+      ],
+      "centroid": [
+        -15.3,
+        -69.7,
+        -5
+      ],
+      "labels": {},
+      "ontology": {
+        "atlasLabels": [
+          63
+        ]
+      },
+      "lod": {
+        "file": "meshes/cerebrum/dkt-lingual-l.lod.glb",
+        "bytes": 20352,
+        "triangles": 2706
+      },
+      "edition": "public",
+      "upstreamFile": "meshes/cerebrum/dkt-lingual-l.lod.glb",
+      "sha256": "962ab24938a9b197e55ee10968523bb20ce1682db7fb242c1147fb066f3a8e77"
+    },
+    {
+      "id": "dkt-lingual-r",
+      "structureId": "gyrus-lingual",
+      "name": "Lingual gyrus (R)",
+      "system": "cerebrum",
+      "subsystem": "lobe-occipital",
+      "side": "right",
+      "source": "cerebra",
+      "license": "CC0-1.0",
+      "nc": false,
+      "alignment": "warped-sym-to-asym",
+      "file": "dkt-lingual-r.glb",
+      "bytes": 20176,
+      "triangles": 2666,
+      "compression": "meshopt",
+      "colour": "#b17f97",
+      "opacity": 1,
+      "visible": true,
+      "bbox": [
+        [
+          -0.1,
+          -98.4,
+          -18.5
+        ],
+        [
+          32.7,
+          -37.7,
+          13
+        ]
+      ],
+      "centroid": [
+        15,
+        -68,
+        -4.1
+      ],
+      "labels": {},
+      "ontology": {
+        "atlasLabels": [
+          12
+        ]
+      },
+      "lod": {
+        "file": "meshes/cerebrum/dkt-lingual-r.lod.glb",
+        "bytes": 20176,
+        "triangles": 2666
+      },
+      "edition": "public",
+      "upstreamFile": "meshes/cerebrum/dkt-lingual-r.lod.glb",
+      "sha256": "e71b61129d26cb3ab7213d2f581ee7f503e2f6a3677c99965f931460172520ef"
+    },
+    {
+      "id": "dkt-medial-orbitofrontal-l",
+      "structureId": "cortex-frontal-medial",
+      "name": "Medial orbitofrontal cortex (L)",
+      "system": "cerebrum",
+      "subsystem": "lobe-frontal",
+      "side": "left",
+      "source": "cerebra",
+      "license": "CC0-1.0",
+      "nc": false,
+      "alignment": "warped-sym-to-asym",
+      "file": "dkt-medial-orbitofrontal-l.glb",
+      "bytes": 15992,
+      "triangles": 2084,
+      "compression": "meshopt",
+      "colour": "#c3b174",
+      "opacity": 1,
+      "visible": true,
+      "bbox": [
+        [
+          -15.3,
+          5.1,
+          -32.2
+        ],
+        [
+          -0.5,
+          70.8,
+          -2.3
+        ]
+      ],
+      "centroid": [
+        -6.5,
+        37.3,
+        -17
+      ],
+      "labels": {},
+      "ontology": {
+        "atlasLabels": [
+          66
+        ]
+      },
+      "lod": {
+        "file": "meshes/cerebrum/dkt-medial-orbitofrontal-l.lod.glb",
+        "bytes": 15992,
+        "triangles": 2084
+      },
+      "edition": "public",
+      "upstreamFile": "meshes/cerebrum/dkt-medial-orbitofrontal-l.lod.glb",
+      "sha256": "4251e747336f5970406a87016f4ecef5c8e505382c7a1656e0b6ce26d2229a03"
+    },
+    {
+      "id": "dkt-medial-orbitofrontal-r",
+      "structureId": "cortex-frontal-medial",
+      "name": "Medial orbitofrontal cortex (R)",
+      "system": "cerebrum",
+      "subsystem": "lobe-frontal",
+      "side": "right",
+      "source": "cerebra",
+      "license": "CC0-1.0",
+      "nc": false,
+      "alignment": "warped-sym-to-asym",
+      "file": "dkt-medial-orbitofrontal-r.glb",
+      "bytes": 16304,
+      "triangles": 2132,
+      "compression": "meshopt",
+      "colour": "#c3b174",
+      "opacity": 1,
+      "visible": true,
+      "bbox": [
+        [
+          -1.5,
+          5.4,
+          -32.5
+        ],
+        [
+          13.8,
+          71.8,
+          -2.8
+        ]
+      ],
+      "centroid": [
+        5.6,
+        37.5,
+        -17.1
+      ],
+      "labels": {},
+      "ontology": {
+        "atlasLabels": [
+          15
+        ]
+      },
+      "lod": {
+        "file": "meshes/cerebrum/dkt-medial-orbitofrontal-r.lod.glb",
+        "bytes": 16304,
+        "triangles": 2132
+      },
+      "edition": "public",
+      "upstreamFile": "meshes/cerebrum/dkt-medial-orbitofrontal-r.lod.glb",
+      "sha256": "3dd64944f0ca4b74d499cc7a20f67885fe936abc5f094db3fd9fcc6a40da0241"
+    },
+    {
+      "id": "dkt-middle-temporal-l",
+      "structureId": "gyrus-middle-temporal-posterior",
+      "name": "Middle temporal gyrus (L)",
+      "system": "cerebrum",
+      "subsystem": "lobe-temporal",
+      "side": "left",
+      "source": "cerebra",
+      "license": "CC0-1.0",
+      "nc": false,
+      "alignment": "warped-sym-to-asym",
+      "file": "dkt-middle-temporal-l.glb",
+      "bytes": 21120,
+      "triangles": 2832,
+      "compression": "meshopt",
+      "colour": "#e4c1bd",
+      "opacity": 1,
+      "visible": true,
+      "bbox": [
+        [
+          -72.3,
+          -74.6,
+          -47.5
+        ],
+        [
+          -32.8,
+          18.4,
+          16.4
+        ]
+      ],
+      "centroid": [
+        -54.4,
+        -29.9,
+        -13
+      ],
+      "labels": {},
+      "ontology": {
+        "atlasLabels": [
+          79
+        ]
+      },
+      "lod": {
+        "file": "meshes/cerebrum/dkt-middle-temporal-l.lod.glb",
+        "bytes": 21120,
+        "triangles": 2832
+      },
+      "edition": "public",
+      "upstreamFile": "meshes/cerebrum/dkt-middle-temporal-l.lod.glb",
+      "sha256": "3da2050f503cbcbd5973010d6c9f9dc78bef8d0f403624471febe3750fc4daf9"
+    },
+    {
+      "id": "dkt-middle-temporal-r",
+      "structureId": "gyrus-middle-temporal-posterior",
+      "name": "Middle temporal gyrus (R)",
+      "system": "cerebrum",
+      "subsystem": "lobe-temporal",
+      "side": "right",
+      "source": "cerebra",
+      "license": "CC0-1.0",
+      "nc": false,
+      "alignment": "warped-sym-to-asym",
+      "file": "dkt-middle-temporal-r.glb",
+      "bytes": 21528,
+      "triangles": 2886,
+      "compression": "meshopt",
+      "colour": "#e4c1bd",
+      "opacity": 1,
+      "visible": true,
+      "bbox": [
+        [
+          32.4,
+          -70.5,
+          -48.5
+        ],
+        [
+          72.3,
+          20.5,
+          17.7
+        ]
+      ],
+      "centroid": [
+        55.3,
+        -27.7,
+        -12.6
+      ],
+      "labels": {},
+      "ontology": {
+        "atlasLabels": [
+          28
+        ]
+      },
+      "lod": {
+        "file": "meshes/cerebrum/dkt-middle-temporal-r.lod.glb",
+        "bytes": 21528,
+        "triangles": 2886
+      },
+      "edition": "public",
+      "upstreamFile": "meshes/cerebrum/dkt-middle-temporal-r.lod.glb",
+      "sha256": "ac1eabcb75c80507917cb5e9433ab701b9124604d879dc365dbd3069213ed364"
+    },
+    {
+      "id": "dkt-paracentral-l",
+      "structureId": "cortex-supplementary-motor",
+      "name": "Paracentral lobule (L)",
+      "system": "cerebrum",
+      "subsystem": "lobe-frontal",
+      "side": "left",
+      "source": "cerebra",
+      "license": "CC0-1.0",
+      "nc": false,
+      "alignment": "warped-sym-to-asym",
+      "file": "dkt-paracentral-l.glb",
+      "bytes": 21252,
+      "triangles": 2782,
+      "compression": "meshopt",
+      "colour": "#d49ca7",
+      "opacity": 1,
+      "visible": true,
+      "bbox": [
+        [
+          -19.5,
+          -47.5,
+          36.9
+        ],
+        [
+          -0.5,
+          -6.1,
+          79.4
+        ]
+      ],
+      "centroid": [
+        -8.2,
+        -27.2,
+        60.5
+      ],
+      "labels": {},
+      "ontology": {
+        "atlasLabels": [
+          67
+        ]
+      },
+      "lod": {
+        "file": "meshes/cerebrum/dkt-paracentral-l.lod.glb",
+        "bytes": 21252,
+        "triangles": 2782
+      },
+      "edition": "public",
+      "upstreamFile": "meshes/cerebrum/dkt-paracentral-l.lod.glb",
+      "sha256": "af1ca1da6b8e649a8241fb6b4cbcfdfd200c6bf80418c5311c78ec4b8a236f0a"
+    },
+    {
+      "id": "dkt-paracentral-r",
+      "structureId": "cortex-supplementary-motor",
+      "name": "Paracentral lobule (R)",
+      "system": "cerebrum",
+      "subsystem": "lobe-frontal",
+      "side": "right",
+      "source": "cerebra",
+      "license": "CC0-1.0",
+      "nc": false,
+      "alignment": "warped-sym-to-asym",
+      "file": "dkt-paracentral-r.glb",
+      "bytes": 19896,
+      "triangles": 2604,
+      "compression": "meshopt",
+      "colour": "#d49ca7",
+      "opacity": 1,
+      "visible": true,
+      "bbox": [
+        [
+          0.5,
+          -45.9,
+          37.7
+        ],
+        [
+          19.5,
+          -4.2,
+          79.2
+        ]
+      ],
+      "centroid": [
+        9.3,
+        -25.9,
+        59.3
+      ],
+      "labels": {},
+      "ontology": {
+        "atlasLabels": [
+          16
+        ]
+      },
+      "lod": {
+        "file": "meshes/cerebrum/dkt-paracentral-r.lod.glb",
+        "bytes": 19896,
+        "triangles": 2604
+      },
+      "edition": "public",
+      "upstreamFile": "meshes/cerebrum/dkt-paracentral-r.lod.glb",
+      "sha256": "cb99336c19d087293ca73c9c357ac66dfaf4a269c26919a4831a54dfecdac8a8"
+    },
+    {
+      "id": "dkt-parahippocampal-l",
+      "structureId": "gyrus-parahippocampal-posterior",
+      "name": "Parahippocampal gyrus (L)",
+      "system": "cerebrum",
+      "subsystem": "lobe-limbic",
+      "side": "left",
+      "source": "cerebra",
+      "license": "CC0-1.0",
+      "nc": false,
+      "alignment": "warped-sym-to-asym",
+      "file": "dkt-parahippocampal-l.glb",
+      "bytes": 17332,
+      "triangles": 2218,
+      "compression": "meshopt",
+      "colour": "#e9d2d2",
+      "opacity": 1,
+      "visible": true,
+      "bbox": [
+        [
+          -37.2,
+          -44.5,
+          -32.2
+        ],
+        [
+          -10.7,
+          -16.7,
+          -1.8
+        ]
+      ],
+      "centroid": [
+        -24.4,
+        -31.2,
+        -17.3
+      ],
+      "labels": {},
+      "ontology": {
+        "atlasLabels": [
+          69
+        ]
+      },
+      "lod": {
+        "file": "meshes/cerebrum/dkt-parahippocampal-l.lod.glb",
+        "bytes": 17332,
+        "triangles": 2218
+      },
+      "edition": "public",
+      "upstreamFile": "meshes/cerebrum/dkt-parahippocampal-l.lod.glb",
+      "sha256": "6388eefb375e616001a0301cf1e2b262b914ce7bf7a9f78dcb76d264835a4f20"
+    },
+    {
+      "id": "dkt-parahippocampal-r",
+      "structureId": "gyrus-parahippocampal-posterior",
+      "name": "Parahippocampal gyrus (R)",
+      "system": "cerebrum",
+      "subsystem": "lobe-limbic",
+      "side": "right",
+      "source": "cerebra",
+      "license": "CC0-1.0",
+      "nc": false,
+      "alignment": "warped-sym-to-asym",
+      "file": "dkt-parahippocampal-r.glb",
+      "bytes": 17016,
+      "triangles": 2186,
+      "compression": "meshopt",
+      "colour": "#e9d2d2",
+      "opacity": 1,
+      "visible": true,
+      "bbox": [
+        [
+          10.7,
+          -42.6,
+          -32.4
+        ],
+        [
+          37.2,
+          -15.8,
+          -1.8
+        ]
+      ],
+      "centroid": [
+        24.9,
+        -29.7,
+        -17.9
+      ],
+      "labels": {},
+      "ontology": {
+        "atlasLabels": [
+          18
+        ]
+      },
+      "lod": {
+        "file": "meshes/cerebrum/dkt-parahippocampal-r.lod.glb",
+        "bytes": 17016,
+        "triangles": 2186
+      },
+      "edition": "public",
+      "upstreamFile": "meshes/cerebrum/dkt-parahippocampal-r.lod.glb",
+      "sha256": "0057b5c03649aaae17185317c54eacbdf17a9c914beb2161a698c783e541beb0"
+    },
+    {
+      "id": "dkt-pars-opercularis-l",
+      "structureId": "gyrus-inferior-frontal-opercularis",
+      "name": "Inferior frontal gyrus, pars opercularis (L)",
+      "system": "cerebrum",
+      "subsystem": "lobe-frontal",
+      "side": "left",
+      "source": "cerebra",
+      "license": "CC0-1.0",
+      "nc": false,
+      "alignment": "warped-sym-to-asym",
+      "file": "dkt-pars-opercularis-l.glb",
+      "bytes": 17780,
+      "triangles": 2298,
+      "compression": "meshopt",
+      "colour": "#c68f7c",
+      "opacity": 1,
+      "visible": true,
+      "bbox": [
+        [
+          -61.5,
+          1.3,
+          -5.1
+        ],
+        [
+          -30.7,
+          26.2,
+          30.5
+        ]
+      ],
+      "centroid": [
+        -45.9,
+        13.4,
+        14.3
+      ],
+      "labels": {},
+      "ontology": {
+        "atlasLabels": [
+          83
+        ]
+      },
+      "lod": {
+        "file": "meshes/cerebrum/dkt-pars-opercularis-l.lod.glb",
+        "bytes": 17780,
+        "triangles": 2298
+      },
+      "edition": "public",
+      "upstreamFile": "meshes/cerebrum/dkt-pars-opercularis-l.lod.glb",
+      "sha256": "8ed0268fe70c09d32312589da21271c3264b1c14819e1237d331f1f00cfe48ea"
+    },
+    {
+      "id": "dkt-pars-opercularis-r",
+      "structureId": "gyrus-inferior-frontal-opercularis",
+      "name": "Inferior frontal gyrus, pars opercularis (R)",
+      "system": "cerebrum",
+      "subsystem": "lobe-frontal",
+      "side": "right",
+      "source": "cerebra",
+      "license": "CC0-1.0",
+      "nc": false,
+      "alignment": "warped-sym-to-asym",
+      "file": "dkt-pars-opercularis-r.glb",
+      "bytes": 17652,
+      "triangles": 2266,
+      "compression": "meshopt",
+      "colour": "#c68f7c",
+      "opacity": 1,
+      "visible": true,
+      "bbox": [
+        [
+          31.1,
+          3.3,
+          -5.1
+        ],
+        [
+          61.5,
+          28.8,
+          30.3
+        ]
+      ],
+      "centroid": [
+        46.4,
+        15.7,
+        13.9
+      ],
+      "labels": {},
+      "ontology": {
+        "atlasLabels": [
+          32
+        ]
+      },
+      "lod": {
+        "file": "meshes/cerebrum/dkt-pars-opercularis-r.lod.glb",
+        "bytes": 17652,
+        "triangles": 2266
+      },
+      "edition": "public",
+      "upstreamFile": "meshes/cerebrum/dkt-pars-opercularis-r.lod.glb",
+      "sha256": "c467c449a89e26869fb4c82aa1c0ca1a9d85b282ada09f04ca2ea2ca985b9692"
+    },
+    {
+      "id": "dkt-pars-orbitalis-l",
+      "structureId": "cortex-orbitofrontal",
+      "name": "Inferior frontal gyrus, pars orbitalis (L)",
+      "system": "cerebrum",
+      "subsystem": "lobe-frontal",
+      "side": "left",
+      "source": "cerebra",
+      "license": "CC0-1.0",
+      "nc": false,
+      "alignment": "warped-sym-to-asym",
+      "file": "dkt-pars-orbitalis-l.glb",
+      "bytes": 16760,
+      "triangles": 2210,
+      "compression": "meshopt",
+      "colour": "#e0b7bf",
+      "opacity": 1,
+      "visible": true,
+      "bbox": [
+        [
+          -54.3,
+          17.6,
+          -22.4
+        ],
+        [
+          -28.5,
+          49.9,
+          1.2
+        ]
+      ],
+      "centroid": [
+        -42.2,
+        33.1,
+        -11.3
+      ],
+      "labels": {},
+      "ontology": {
+        "atlasLabels": [
+          95
+        ]
+      },
+      "lod": {
+        "file": "meshes/cerebrum/dkt-pars-orbitalis-l.lod.glb",
+        "bytes": 16760,
+        "triangles": 2210
+      },
+      "edition": "public",
+      "upstreamFile": "meshes/cerebrum/dkt-pars-orbitalis-l.lod.glb",
+      "sha256": "e7e6bdcebb053faef5cda7f17d33906a9302a53ba90aff3ca9f968c99dd247cc"
+    },
+    {
+      "id": "dkt-pars-orbitalis-r",
+      "structureId": "cortex-orbitofrontal",
+      "name": "Inferior frontal gyrus, pars orbitalis (R)",
+      "system": "cerebrum",
+      "subsystem": "lobe-frontal",
+      "side": "right",
+      "source": "cerebra",
+      "license": "CC0-1.0",
+      "nc": false,
+      "alignment": "warped-sym-to-asym",
+      "file": "dkt-pars-orbitalis-r.glb",
+      "bytes": 16028,
+      "triangles": 2098,
+      "compression": "meshopt",
+      "colour": "#e0b7bf",
+      "opacity": 1,
+      "visible": true,
+      "bbox": [
+        [
+          28.5,
+          19.5,
+          -22.5
+        ],
+        [
+          54.4,
+          50.8,
+          -0.8
+        ]
+      ],
+      "centroid": [
+        42.2,
+        35,
+        -12.7
+      ],
+      "labels": {},
+      "ontology": {
+        "atlasLabels": [
+          44
+        ]
+      },
+      "lod": {
+        "file": "meshes/cerebrum/dkt-pars-orbitalis-r.lod.glb",
+        "bytes": 16028,
+        "triangles": 2098
+      },
+      "edition": "public",
+      "upstreamFile": "meshes/cerebrum/dkt-pars-orbitalis-r.lod.glb",
+      "sha256": "955155e0b0ca48deafcdaeb23af1dec5d0fab30b58d6795c598365b2b114aa49"
+    },
+    {
+      "id": "dkt-pars-triangularis-l",
+      "structureId": "gyrus-inferior-frontal-triangularis",
+      "name": "Inferior frontal gyrus, pars triangularis (L)",
+      "system": "cerebrum",
+      "subsystem": "lobe-frontal",
+      "side": "left",
+      "source": "cerebra",
+      "license": "CC0-1.0",
+      "nc": false,
+      "alignment": "warped-sym-to-asym",
+      "file": "dkt-pars-triangularis-l.glb",
+      "bytes": 16644,
+      "triangles": 2160,
+      "compression": "meshopt",
+      "colour": "#c89e81",
+      "opacity": 1,
+      "visible": true,
+      "bbox": [
+        [
+          -60.5,
+          18.4,
+          -11.5
+        ],
+        [
+          -28.6,
+          46.9,
+          22.5
+        ]
+      ],
+      "centroid": [
+        -46.2,
+        30.8,
+        5.4
+      ],
+      "labels": {},
+      "ontology": {
+        "atlasLabels": [
+          73
+        ]
+      },
+      "lod": {
+        "file": "meshes/cerebrum/dkt-pars-triangularis-l.lod.glb",
+        "bytes": 16644,
+        "triangles": 2160
+      },
+      "edition": "public",
+      "upstreamFile": "meshes/cerebrum/dkt-pars-triangularis-l.lod.glb",
+      "sha256": "8eb13f4f73a4429129d7e41c0d42f313ca50a10a745e85a6e5564171568d9a30"
+    },
+    {
+      "id": "dkt-pars-triangularis-r",
+      "structureId": "gyrus-inferior-frontal-triangularis",
+      "name": "Inferior frontal gyrus, pars triangularis (R)",
+      "system": "cerebrum",
+      "subsystem": "lobe-frontal",
+      "side": "right",
+      "source": "cerebra",
+      "license": "CC0-1.0",
+      "nc": false,
+      "alignment": "warped-sym-to-asym",
+      "file": "dkt-pars-triangularis-r.glb",
+      "bytes": 17292,
+      "triangles": 2212,
+      "compression": "meshopt",
+      "colour": "#c89e81",
+      "opacity": 1,
+      "visible": true,
+      "bbox": [
+        [
+          28.8,
+          20.5,
+          -11.6
+        ],
+        [
+          60.5,
+          49.3,
+          22.5
+        ]
+      ],
+      "centroid": [
+        47.7,
+        32.4,
+        4.7
+      ],
+      "labels": {},
+      "ontology": {
+        "atlasLabels": [
+          22
+        ]
+      },
+      "lod": {
+        "file": "meshes/cerebrum/dkt-pars-triangularis-r.lod.glb",
+        "bytes": 17292,
+        "triangles": 2212
+      },
+      "edition": "public",
+      "upstreamFile": "meshes/cerebrum/dkt-pars-triangularis-r.lod.glb",
+      "sha256": "d3db4f3892aac547e1921697a82a148db7409373da4d2b677b7d90c8aa8711d9"
+    },
+    {
+      "id": "dkt-pericalcarine-l",
+      "structureId": "cortex-intracalcarine",
+      "name": "Pericalcarine cortex (L)",
+      "system": "cerebrum",
+      "subsystem": "lobe-occipital",
+      "side": "left",
+      "source": "cerebra",
+      "license": "CC0-1.0",
+      "nc": false,
+      "alignment": "warped-sym-to-asym",
+      "file": "dkt-pericalcarine-l.glb",
+      "bytes": 16364,
+      "triangles": 2114,
+      "compression": "meshopt",
+      "colour": "#c09798",
+      "opacity": 1,
+      "visible": true,
+      "bbox": [
+        [
+          -26.1,
+          -102.5,
+          -11.4
+        ],
+        [
+          -1.5,
+          -64.3,
+          18.4
+        ]
+      ],
+      "centroid": [
+        -10.7,
+        -83.7,
+        5
+      ],
+      "labels": {},
+      "ontology": {
+        "atlasLabels": [
+          57
+        ]
+      },
+      "lod": {
+        "file": "meshes/cerebrum/dkt-pericalcarine-l.lod.glb",
+        "bytes": 16364,
+        "triangles": 2114
+      },
+      "edition": "public",
+      "upstreamFile": "meshes/cerebrum/dkt-pericalcarine-l.lod.glb",
+      "sha256": "857cf6642a02b4586d4e00b6a3273add2942bb6d7aa03a030eeaccb250cc5651"
+    },
+    {
+      "id": "dkt-pericalcarine-r",
+      "structureId": "cortex-intracalcarine",
+      "name": "Pericalcarine cortex (R)",
+      "system": "cerebrum",
+      "subsystem": "lobe-occipital",
+      "side": "right",
+      "source": "cerebra",
+      "license": "CC0-1.0",
+      "nc": false,
+      "alignment": "warped-sym-to-asym",
+      "file": "dkt-pericalcarine-r.glb",
+      "bytes": 16536,
+      "triangles": 2146,
+      "compression": "meshopt",
+      "colour": "#c09798",
+      "opacity": 1,
+      "visible": true,
+      "bbox": [
+        [
+          3.5,
+          -100.5,
+          -9.4
+        ],
+        [
+          26.7,
+          -60.6,
+          20.4
+        ]
+      ],
+      "centroid": [
+        12,
+        -80,
+        7.2
+      ],
+      "labels": {},
+      "ontology": {
+        "atlasLabels": [
+          6
+        ]
+      },
+      "lod": {
+        "file": "meshes/cerebrum/dkt-pericalcarine-r.lod.glb",
+        "bytes": 16536,
+        "triangles": 2146
+      },
+      "edition": "public",
+      "upstreamFile": "meshes/cerebrum/dkt-pericalcarine-r.lod.glb",
+      "sha256": "e084a3a6015449813eb190ab5df8affe296c1764452f5ce59a39f41872172beb"
+    },
+    {
+      "id": "dkt-postcentral-l",
+      "structureId": "gyrus-postcentral",
+      "name": "Postcentral gyrus (L)",
+      "system": "cerebrum",
+      "subsystem": "lobe-parietal",
+      "side": "left",
+      "source": "cerebra",
+      "license": "CC0-1.0",
+      "nc": false,
+      "alignment": "warped-sym-to-asym",
+      "file": "dkt-postcentral-l.glb",
+      "bytes": 22396,
+      "triangles": 2958,
+      "compression": "meshopt",
+      "colour": "#d9c4c0",
+      "opacity": 1,
+      "visible": true,
+      "bbox": [
+        [
+          -69.5,
+          -58.1,
+          7.6
+        ],
+        [
+          -5,
+          -2.8,
+          82.4
+        ]
+      ],
+      "centroid": [
+        -41.1,
+        -26.5,
+        47.5
+      ],
+      "labels": {},
+      "ontology": {
+        "atlasLabels": [
+          64
+        ]
+      },
+      "lod": {
+        "file": "meshes/cerebrum/dkt-postcentral-l.lod.glb",
+        "bytes": 22396,
+        "triangles": 2958
+      },
+      "edition": "public",
+      "upstreamFile": "meshes/cerebrum/dkt-postcentral-l.lod.glb",
+      "sha256": "88e81c0024eb4d63d7c3ed638c91369879fe95af1d2f3baf5d1aea53c3d81d59"
+    },
+    {
+      "id": "dkt-postcentral-r",
+      "structureId": "gyrus-postcentral",
+      "name": "Postcentral gyrus (R)",
+      "system": "cerebrum",
+      "subsystem": "lobe-parietal",
+      "side": "right",
+      "source": "cerebra",
+      "license": "CC0-1.0",
+      "nc": false,
+      "alignment": "warped-sym-to-asym",
+      "file": "dkt-postcentral-r.glb",
+      "bytes": 22416,
+      "triangles": 2980,
+      "compression": "meshopt",
+      "colour": "#d9c4c0",
+      "opacity": 1,
+      "visible": true,
+      "bbox": [
+        [
+          3.5,
+          -59.3,
+          7.3
+        ],
+        [
+          69.8,
+          -0.7,
+          82.5
+        ]
+      ],
+      "centroid": [
+        42.4,
+        -23,
+        46
+      ],
+      "labels": {},
+      "ontology": {
+        "atlasLabels": [
+          13
+        ]
+      },
+      "lod": {
+        "file": "meshes/cerebrum/dkt-postcentral-r.lod.glb",
+        "bytes": 22416,
+        "triangles": 2980
+      },
+      "edition": "public",
+      "upstreamFile": "meshes/cerebrum/dkt-postcentral-r.lod.glb",
+      "sha256": "108e22fad0507f24dd481beb867ef1e84a7b0efeafde05d9719e856c64f2255f"
+    },
+    {
+      "id": "dkt-posterior-cingulate-l",
+      "structureId": "gyrus-cingulate-posterior",
+      "name": "Posterior cingulate cortex (L)",
+      "system": "cerebrum",
+      "subsystem": "lobe-limbic",
+      "side": "left",
+      "source": "cerebra",
+      "license": "CC0-1.0",
+      "nc": false,
+      "alignment": "warped-sym-to-asym",
+      "file": "dkt-posterior-cingulate-l.glb",
+      "bytes": 128236,
+      "triangles": 20000,
+      "compression": "meshopt",
+      "colour": "#bf7c8c",
+      "opacity": 1,
+      "visible": true,
+      "bbox": [
+        [
+          -16.9,
+          -41.6,
+          25.5
+        ],
+        [
+          -0.3,
+          5.6,
+          50.1
+        ]
+      ],
+      "centroid": [
+        -6.4,
+        -19.7,
+        38
+      ],
+      "labels": {},
+      "ontology": {
+        "atlasLabels": [
+          98
+        ]
+      },
+      "lod": {
+        "file": "meshes/cerebrum/dkt-posterior-cingulate-l.lod.glb",
+        "bytes": 17260,
+        "triangles": 2264
+      },
+      "edition": "public",
+      "upstreamFile": "meshes/cerebrum/dkt-posterior-cingulate-l.glb",
+      "sha256": "bd930fd9e4a5b38967067d33c4eef91839dbd5b87c303a737700ea27b81c6870"
+    },
+    {
+      "id": "dkt-posterior-cingulate-r",
+      "structureId": "gyrus-cingulate-posterior",
+      "name": "Posterior cingulate cortex (R)",
+      "system": "cerebrum",
+      "subsystem": "lobe-limbic",
+      "side": "right",
+      "source": "cerebra",
+      "license": "CC0-1.0",
+      "nc": false,
+      "alignment": "warped-sym-to-asym",
+      "file": "dkt-posterior-cingulate-r.glb",
+      "bytes": 128780,
+      "triangles": 20000,
+      "compression": "meshopt",
+      "colour": "#bf7c8c",
+      "opacity": 1,
+      "visible": true,
+      "bbox": [
+        [
+          -0.5,
+          -41.3,
+          25.6
+        ],
+        [
+          16.5,
+          5.3,
+          50.1
+        ]
+      ],
+      "centroid": [
+        6.5,
+        -19.5,
+        38.3
+      ],
+      "labels": {},
+      "ontology": {
+        "atlasLabels": [
+          47
+        ]
+      },
+      "lod": {
+        "file": "meshes/cerebrum/dkt-posterior-cingulate-r.lod.glb",
+        "bytes": 17716,
+        "triangles": 2312
+      },
+      "edition": "public",
+      "upstreamFile": "meshes/cerebrum/dkt-posterior-cingulate-r.glb",
+      "sha256": "173d6665c83968dee61e33fa5815282f0d83d0131da63c1b56b74a18416cbeec"
+    },
+    {
+      "id": "dkt-precentral-l",
+      "structureId": "gyrus-precentral",
+      "name": "Precentral gyrus (L)",
+      "system": "cerebrum",
+      "subsystem": "lobe-frontal",
+      "side": "left",
+      "source": "cerebra",
+      "license": "CC0-1.0",
+      "nc": false,
+      "alignment": "warped-sym-to-asym",
+      "file": "dkt-precentral-l.glb",
+      "bytes": 22176,
+      "triangles": 2950,
+      "compression": "meshopt",
+      "colour": "#c37478",
+      "opacity": 1,
+      "visible": true,
+      "bbox": [
+        [
+          -66.5,
+          -37.5,
+          -1.5
+        ],
+        [
+          -4.5,
+          12.5,
+          81.5
+        ]
+      ],
+      "centroid": [
+        -39.3,
+        -10.3,
+        43.6
+      ],
+      "labels": {},
+      "ontology": {
+        "atlasLabels": [
+          86
+        ]
+      },
+      "lod": {
+        "file": "meshes/cerebrum/dkt-precentral-l.lod.glb",
+        "bytes": 22176,
+        "triangles": 2950
+      },
+      "edition": "public",
+      "upstreamFile": "meshes/cerebrum/dkt-precentral-l.lod.glb",
+      "sha256": "383f34686dffa07e63a40324aaa5313a5a602535819d3e90497fad1b89e64714"
+    },
+    {
+      "id": "dkt-precentral-r",
+      "structureId": "gyrus-precentral",
+      "name": "Precentral gyrus (R)",
+      "system": "cerebrum",
+      "subsystem": "lobe-frontal",
+      "side": "right",
+      "source": "cerebra",
+      "license": "CC0-1.0",
+      "nc": false,
+      "alignment": "warped-sym-to-asym",
+      "file": "dkt-precentral-r.glb",
+      "bytes": 22192,
+      "triangles": 2944,
+      "compression": "meshopt",
+      "colour": "#c37478",
+      "opacity": 1,
+      "visible": true,
+      "bbox": [
+        [
+          4.3,
+          -35.5,
+          -1.5
+        ],
+        [
+          66.5,
+          15.5,
+          81.5
+        ]
+      ],
+      "centroid": [
+        39.4,
+        -8.2,
+        43.2
+      ],
+      "labels": {},
+      "ontology": {
+        "atlasLabels": [
+          35
+        ]
+      },
+      "lod": {
+        "file": "meshes/cerebrum/dkt-precentral-r.lod.glb",
+        "bytes": 22192,
+        "triangles": 2944
+      },
+      "edition": "public",
+      "upstreamFile": "meshes/cerebrum/dkt-precentral-r.lod.glb",
+      "sha256": "a0ced9517fb3fbff4cc637e678fb64ea1b52539f69ff64f56c728d10e52093d9"
+    },
+    {
+      "id": "dkt-precuneus-l",
+      "structureId": "precuneus",
+      "name": "Precuneus (L)",
+      "system": "cerebrum",
+      "subsystem": "lobe-parietal",
+      "side": "left",
+      "source": "cerebra",
+      "license": "CC0-1.0",
+      "nc": false,
+      "alignment": "warped-sym-to-asym",
+      "file": "dkt-precuneus-l.glb",
+      "bytes": 131036,
+      "triangles": 20000,
+      "compression": "meshopt",
+      "colour": "#cbada8",
+      "opacity": 1,
+      "visible": true,
+      "bbox": [
+        [
+          -26.2,
+          -84.1,
+          5.1
+        ],
+        [
+          0.5,
+          -35.6,
+          78.2
+        ]
+      ],
+      "centroid": [
+        -10.5,
+        -58.7,
+        39.4
+      ],
+      "labels": {},
+      "ontology": {
+        "atlasLabels": [
+          82
+        ]
+      },
+      "lod": {
+        "file": "meshes/cerebrum/dkt-precuneus-l.lod.glb",
+        "bytes": 21208,
+        "triangles": 2840
+      },
+      "edition": "public",
+      "upstreamFile": "meshes/cerebrum/dkt-precuneus-l.glb",
+      "sha256": "e415c348f08ac1469d8475c440069180346cd9068c574a58e88f3155064c0c7c"
+    },
+    {
+      "id": "dkt-precuneus-r",
+      "structureId": "precuneus",
+      "name": "Precuneus (R)",
+      "system": "cerebrum",
+      "subsystem": "lobe-parietal",
+      "side": "right",
+      "source": "cerebra",
+      "license": "CC0-1.0",
+      "nc": false,
+      "alignment": "warped-sym-to-asym",
+      "file": "dkt-precuneus-r.glb",
+      "bytes": 131268,
+      "triangles": 20000,
+      "compression": "meshopt",
+      "colour": "#cbada8",
+      "opacity": 1,
+      "visible": true,
+      "bbox": [
+        [
+          0.5,
+          -83.7,
+          5.3
+        ],
+        [
+          27.3,
+          -35.5,
+          79
+        ]
+      ],
+      "centroid": [
+        11,
+        -57.6,
+        40
+      ],
+      "labels": {},
+      "ontology": {
+        "atlasLabels": [
+          31
+        ]
+      },
+      "lod": {
+        "file": "meshes/cerebrum/dkt-precuneus-r.lod.glb",
+        "bytes": 21088,
+        "triangles": 2822
+      },
+      "edition": "public",
+      "upstreamFile": "meshes/cerebrum/dkt-precuneus-r.glb",
+      "sha256": "c57ed89c8d88d209fe502f438cec27a1d8c9bbe07763406bd63c97bdf396c73e"
+    },
+    {
+      "id": "dkt-rostral-anterior-cingulate-l",
+      "structureId": "gyrus-cingulate-anterior",
+      "name": "Rostral anterior cingulate cortex (L)",
+      "system": "cerebrum",
+      "subsystem": "lobe-limbic",
+      "side": "left",
+      "source": "cerebra",
+      "license": "CC0-1.0",
+      "nc": false,
+      "alignment": "warped-sym-to-asym",
+      "file": "dkt-rostral-anterior-cingulate-l.glb",
+      "bytes": 125520,
+      "triangles": 20000,
+      "compression": "meshopt",
+      "colour": "#dfbdc5",
+      "opacity": 1,
+      "visible": true,
+      "bbox": [
+        [
+          -13.5,
+          9.1,
+          -15
+        ],
+        [
+          -0.2,
+          47.2,
+          19.8
+        ]
+      ],
+      "centroid": [
+        -5.9,
+        34.7,
+        1.5
+      ],
+      "labels": {},
+      "ontology": {
+        "atlasLabels": [
+          59
+        ]
+      },
+      "lod": {
+        "file": "meshes/cerebrum/dkt-rostral-anterior-cingulate-l.lod.glb",
+        "bytes": 11732,
+        "triangles": 1456
+      },
+      "edition": "public",
+      "upstreamFile": "meshes/cerebrum/dkt-rostral-anterior-cingulate-l.glb",
+      "sha256": "f5650bc661992005f84e03b46ae7e86007e62cf6ccb53f4046a4047b420965d2"
+    },
+    {
+      "id": "dkt-rostral-anterior-cingulate-r",
+      "structureId": "gyrus-cingulate-anterior",
+      "name": "Rostral anterior cingulate cortex (R)",
+      "system": "cerebrum",
+      "subsystem": "lobe-limbic",
+      "side": "right",
+      "source": "cerebra",
+      "license": "CC0-1.0",
+      "nc": false,
+      "alignment": "warped-sym-to-asym",
+      "file": "dkt-rostral-anterior-cingulate-r.glb",
+      "bytes": 126032,
+      "triangles": 20000,
+      "compression": "meshopt",
+      "colour": "#dfbdc5",
+      "opacity": 1,
+      "visible": true,
+      "bbox": [
+        [
+          -1.6,
+          9.1,
+          -14.7
+        ],
+        [
+          14.4,
+          47.1,
+          19.7
+        ]
+      ],
+      "centroid": [
+        5.8,
+        35.1,
+        1.5
+      ],
+      "labels": {},
+      "ontology": {
+        "atlasLabels": [
+          8
+        ]
+      },
+      "lod": {
+        "file": "meshes/cerebrum/dkt-rostral-anterior-cingulate-r.lod.glb",
+        "bytes": 11652,
+        "triangles": 1442
+      },
+      "edition": "public",
+      "upstreamFile": "meshes/cerebrum/dkt-rostral-anterior-cingulate-r.glb",
+      "sha256": "99dc136c427ca63ec9f7bcd5657a78ae030a1adff0df6c53cd618a42f9e14bd5"
+    },
+    {
+      "id": "dkt-rostral-middle-frontal-l",
+      "structureId": "gyrus-middle-frontal",
+      "name": "Rostral middle frontal gyrus (L)",
+      "system": "cerebrum",
+      "subsystem": "lobe-frontal",
+      "side": "left",
+      "source": "cerebra",
+      "license": "CC0-1.0",
+      "nc": false,
+      "alignment": "warped-sym-to-asym",
+      "file": "dkt-rostral-middle-frontal-l.glb",
+      "bytes": 131952,
+      "triangles": 20000,
+      "compression": "meshopt",
+      "colour": "#e3c8bf",
+      "opacity": 1,
+      "visible": true,
+      "bbox": [
+        [
+          -55.9,
+          12.6,
+          -19.4
+        ],
+        [
+          -20.8,
+          66.6,
+          50.5
+        ]
+      ],
+      "centroid": [
+        -36.8,
+        40.8,
+        18
+      ],
+      "labels": {},
+      "ontology": {
+        "atlasLabels": [
+          52
+        ]
+      },
+      "lod": {
+        "file": "meshes/cerebrum/dkt-rostral-middle-frontal-l.lod.glb",
+        "bytes": 21324,
+        "triangles": 2812
+      },
+      "edition": "public",
+      "upstreamFile": "meshes/cerebrum/dkt-rostral-middle-frontal-l.glb",
+      "sha256": "bd0b5d2aa8174af84be1968a8f52eb74b8099e0a4d3a1ee662d3fd875a7160b4"
+    },
+    {
+      "id": "dkt-rostral-middle-frontal-r",
+      "structureId": "gyrus-middle-frontal",
+      "name": "Rostral middle frontal gyrus (R)",
+      "system": "cerebrum",
+      "subsystem": "lobe-frontal",
+      "side": "right",
+      "source": "cerebra",
+      "license": "CC0-1.0",
+      "nc": false,
+      "alignment": "warped-sym-to-asym",
+      "file": "dkt-rostral-middle-frontal-r.glb",
+      "bytes": 131964,
+      "triangles": 20000,
+      "compression": "meshopt",
+      "colour": "#e3c8bf",
+      "opacity": 1,
+      "visible": true,
+      "bbox": [
+        [
+          21.5,
+          14.5,
+          -19.4
+        ],
+        [
+          55.9,
+          67.4,
+          50.5
+        ]
+      ],
+      "centroid": [
+        37.2,
+        42.3,
+        17.2
+      ],
+      "labels": {},
+      "ontology": {
+        "atlasLabels": [
+          1
+        ]
+      },
+      "lod": {
+        "file": "meshes/cerebrum/dkt-rostral-middle-frontal-r.lod.glb",
+        "bytes": 21392,
+        "triangles": 2804
+      },
+      "edition": "public",
+      "upstreamFile": "meshes/cerebrum/dkt-rostral-middle-frontal-r.glb",
+      "sha256": "232223bc2bb7da753a5b1c435735f5e9b16c943bd894d2384b7b84a6e051ca8b"
+    },
+    {
+      "id": "dkt-superior-frontal-l",
+      "structureId": "gyrus-superior-frontal",
+      "name": "Superior frontal gyrus (L)",
+      "system": "cerebrum",
+      "subsystem": "lobe-frontal",
+      "side": "left",
+      "source": "cerebra",
+      "license": "CC0-1.0",
+      "nc": false,
+      "alignment": "warped-sym-to-asym",
+      "file": "dkt-superior-frontal-l.glb",
+      "bytes": 22620,
+      "triangles": 2986,
+      "compression": "meshopt",
+      "colour": "#c37484",
+      "opacity": 1,
+      "visible": true,
+      "bbox": [
+        [
+          -33.2,
+          -17.9,
+          -17.2
+        ],
+        [
+          -0.5,
+          73.5,
+          79.4
+        ]
+      ],
+      "centroid": [
+        -14.4,
+        32.2,
+        36.5
+      ],
+      "labels": {},
+      "ontology": {
+        "atlasLabels": [
+          89
+        ]
+      },
+      "lod": {
+        "file": "meshes/cerebrum/dkt-superior-frontal-l.lod.glb",
+        "bytes": 22620,
+        "triangles": 2986
+      },
+      "edition": "public",
+      "upstreamFile": "meshes/cerebrum/dkt-superior-frontal-l.lod.glb",
+      "sha256": "bf85f86bc51871110791a6e6c54f92ae838b9289fa319abc4ec3b572c974902a"
+    },
+    {
+      "id": "dkt-superior-frontal-r",
+      "structureId": "gyrus-superior-frontal",
+      "name": "Superior frontal gyrus (R)",
+      "system": "cerebrum",
+      "subsystem": "lobe-frontal",
+      "side": "right",
+      "source": "cerebra",
+      "license": "CC0-1.0",
+      "nc": false,
+      "alignment": "warped-sym-to-asym",
+      "file": "dkt-superior-frontal-r.glb",
+      "bytes": 22652,
+      "triangles": 2984,
+      "compression": "meshopt",
+      "colour": "#c37484",
+      "opacity": 1,
+      "visible": true,
+      "bbox": [
+        [
+          -0.3,
+          -16.6,
+          -17.2
+        ],
+        [
+          34.4,
+          73.6,
+          78.4
+        ]
+      ],
+      "centroid": [
+        14.8,
+        33.1,
+        36.1
+      ],
+      "labels": {},
+      "ontology": {
+        "atlasLabels": [
+          38
+        ]
+      },
+      "lod": {
+        "file": "meshes/cerebrum/dkt-superior-frontal-r.lod.glb",
+        "bytes": 22652,
+        "triangles": 2984
+      },
+      "edition": "public",
+      "upstreamFile": "meshes/cerebrum/dkt-superior-frontal-r.lod.glb",
+      "sha256": "5da15d9adb5511a190f198bc52b64324c7032a0eb88b38fce3a6320feede2835"
+    },
+    {
+      "id": "dkt-superior-parietal-l",
+      "structureId": "lobule-superior-parietal",
+      "name": "Superior parietal lobule (L)",
+      "system": "cerebrum",
+      "subsystem": "lobe-parietal",
+      "side": "left",
+      "source": "cerebra",
+      "license": "CC0-1.0",
+      "nc": false,
+      "alignment": "warped-sym-to-asym",
+      "file": "dkt-superior-parietal-l.glb",
+      "bytes": 22468,
+      "triangles": 2944,
+      "compression": "meshopt",
+      "colour": "#d2b8b4",
+      "opacity": 1,
+      "visible": true,
+      "bbox": [
+        [
+          -47.5,
+          -93.4,
+          15.8
+        ],
+        [
+          -5.4,
+          -36.7,
+          76.3
+        ]
+      ],
+      "centroid": [
+        -24.9,
+        -62.1,
+        51.6
+      ],
+      "labels": {},
+      "ontology": {
+        "atlasLabels": [
+          60
+        ]
+      },
+      "lod": {
+        "file": "meshes/cerebrum/dkt-superior-parietal-l.lod.glb",
+        "bytes": 22468,
+        "triangles": 2944
+      },
+      "edition": "public",
+      "upstreamFile": "meshes/cerebrum/dkt-superior-parietal-l.lod.glb",
+      "sha256": "5c2bdf7116f90ff9522d08d4a85fc1a6c9449a1d747217b997606f94fb35d6e6"
+    },
+    {
+      "id": "dkt-superior-parietal-r",
+      "structureId": "lobule-superior-parietal",
+      "name": "Superior parietal lobule (R)",
+      "system": "cerebrum",
+      "subsystem": "lobe-parietal",
+      "side": "right",
+      "source": "cerebra",
+      "license": "CC0-1.0",
+      "nc": false,
+      "alignment": "warped-sym-to-asym",
+      "file": "dkt-superior-parietal-r.glb",
+      "bytes": 22484,
+      "triangles": 2942,
+      "compression": "meshopt",
+      "colour": "#d2b8b4",
+      "opacity": 1,
+      "visible": true,
+      "bbox": [
+        [
+          6.5,
+          -92.5,
+          15.8
+        ],
+        [
+          45.1,
+          -34.9,
+          76.4
+        ]
+      ],
+      "centroid": [
+        25.2,
+        -61.7,
+        51.7
+      ],
+      "labels": {},
+      "ontology": {
+        "atlasLabels": [
+          9
+        ]
+      },
+      "lod": {
+        "file": "meshes/cerebrum/dkt-superior-parietal-r.lod.glb",
+        "bytes": 22484,
+        "triangles": 2942
+      },
+      "edition": "public",
+      "upstreamFile": "meshes/cerebrum/dkt-superior-parietal-r.lod.glb",
+      "sha256": "9460da7a954fd86dfd1859288b733d6333300487642ce58c81ffcae3a8594bff"
+    },
+    {
+      "id": "dkt-superior-temporal-l",
+      "structureId": "gyrus-superior-temporal-posterior",
+      "name": "Superior temporal gyrus (L)",
+      "system": "cerebrum",
+      "subsystem": "lobe-temporal",
+      "side": "left",
+      "source": "cerebra",
+      "license": "CC0-1.0",
+      "nc": false,
+      "alignment": "warped-sym-to-asym",
+      "file": "dkt-superior-temporal-l.glb",
+      "bytes": 21892,
+      "triangles": 2918,
+      "compression": "meshopt",
+      "colour": "#d7a99b",
+      "opacity": 1,
+      "visible": true,
+      "bbox": [
+        [
+          -71.5,
+          -54.3,
+          -45.9
+        ],
+        [
+          -19.5,
+          25.5,
+          22.1
+        ]
+      ],
+      "centroid": [
+        -49.4,
+        -9.6,
+        -9.6
+      ],
+      "labels": {},
+      "ontology": {
+        "atlasLabels": [
+          96
+        ]
+      },
+      "lod": {
+        "file": "meshes/cerebrum/dkt-superior-temporal-l.lod.glb",
+        "bytes": 21892,
+        "triangles": 2918
+      },
+      "edition": "public",
+      "upstreamFile": "meshes/cerebrum/dkt-superior-temporal-l.lod.glb",
+      "sha256": "4a2e240fba15a12a04a9ed3a4c35ef39362dd11dfe413ea40d9ff2243ba48d9c"
+    },
+    {
+      "id": "dkt-superior-temporal-r",
+      "structureId": "gyrus-superior-temporal-posterior",
+      "name": "Superior temporal gyrus (R)",
+      "system": "cerebrum",
+      "subsystem": "lobe-temporal",
+      "side": "right",
+      "source": "cerebra",
+      "license": "CC0-1.0",
+      "nc": false,
+      "alignment": "warped-sym-to-asym",
+      "file": "dkt-superior-temporal-r.glb",
+      "bytes": 21888,
+      "triangles": 2912,
+      "compression": "meshopt",
+      "colour": "#d7a99b",
+      "opacity": 1,
+      "visible": true,
+      "bbox": [
+        [
+          17.5,
+          -50.3,
+          -46.4
+        ],
+        [
+          72,
+          27.5,
+          21.5
+        ]
+      ],
+      "centroid": [
+        48.5,
+        -7,
+        -9.8
+      ],
+      "labels": {},
+      "ontology": {
+        "atlasLabels": [
+          45
+        ]
+      },
+      "lod": {
+        "file": "meshes/cerebrum/dkt-superior-temporal-r.lod.glb",
+        "bytes": 21888,
+        "triangles": 2912
+      },
+      "edition": "public",
+      "upstreamFile": "meshes/cerebrum/dkt-superior-temporal-r.lod.glb",
+      "sha256": "bbd1d3ca182831bdb4e8d81be62ab7531eaa0058e76878d150a936907d28509f"
+    },
+    {
+      "id": "dkt-supramarginal-l",
+      "structureId": "gyrus-supramarginal",
+      "name": "Supramarginal gyrus (L)",
+      "system": "cerebrum",
+      "subsystem": "lobe-parietal",
+      "side": "left",
+      "source": "cerebra",
+      "license": "CC0-1.0",
+      "nc": false,
+      "alignment": "warped-sym-to-asym",
+      "file": "dkt-supramarginal-l.glb",
+      "bytes": 21752,
+      "triangles": 2814,
+      "compression": "meshopt",
+      "colour": "#e0d5cc",
+      "opacity": 1,
+      "visible": true,
+      "bbox": [
+        [
+          -69.5,
+          -54.7,
+          13.7
+        ],
+        [
+          -31.1,
+          -18.4,
+          58.2
+        ]
+      ],
+      "centroid": [
+        -53.6,
+        -36.4,
+        34.7
+      ],
+      "labels": {},
+      "ontology": {
+        "atlasLabels": [
+          102
+        ]
+      },
+      "lod": {
+        "file": "meshes/cerebrum/dkt-supramarginal-l.lod.glb",
+        "bytes": 21752,
+        "triangles": 2814
+      },
+      "edition": "public",
+      "upstreamFile": "meshes/cerebrum/dkt-supramarginal-l.lod.glb",
+      "sha256": "537ba9ee05f0ca989ca5ec8bc18878b1c1d42e61bf79137a8d6c9672ff584100"
+    },
+    {
+      "id": "dkt-supramarginal-r",
+      "structureId": "gyrus-supramarginal",
+      "name": "Supramarginal gyrus (R)",
+      "system": "cerebrum",
+      "subsystem": "lobe-parietal",
+      "side": "right",
+      "source": "cerebra",
+      "license": "CC0-1.0",
+      "nc": false,
+      "alignment": "warped-sym-to-asym",
+      "file": "dkt-supramarginal-r.glb",
+      "bytes": 21816,
+      "triangles": 2826,
+      "compression": "meshopt",
+      "colour": "#e0d5cc",
+      "opacity": 1,
+      "visible": true,
+      "bbox": [
+        [
+          31.2,
+          -51.7,
+          15.5
+        ],
+        [
+          70.2,
+          -14.4,
+          60.5
+        ]
+      ],
+      "centroid": [
+        51.6,
+        -33.4,
+        36.8
+      ],
+      "labels": {},
+      "ontology": {
+        "atlasLabels": [
+          51
+        ]
+      },
+      "lod": {
+        "file": "meshes/cerebrum/dkt-supramarginal-r.lod.glb",
+        "bytes": 21816,
+        "triangles": 2826
+      },
+      "edition": "public",
+      "upstreamFile": "meshes/cerebrum/dkt-supramarginal-r.lod.glb",
+      "sha256": "8e09eeda96d4448ab7303ba1ce8fb2da8660549c6199c533aa43a1292223bb2e"
+    },
+    {
+      "id": "dkt-transverse-temporal-l",
+      "structureId": "gyrus-heschl",
+      "name": "Transverse temporal gyrus (Heschl) (L)",
+      "system": "cerebrum",
+      "subsystem": "lobe-temporal",
+      "side": "left",
+      "source": "cerebra",
+      "license": "CC0-1.0",
+      "nc": false,
+      "alignment": "warped-sym-to-asym",
+      "file": "dkt-transverse-temporal-l.glb",
+      "bytes": 17608,
+      "triangles": 2304,
+      "compression": "meshopt",
+      "colour": "#e1dab5",
+      "opacity": 1,
+      "visible": true,
+      "bbox": [
+        [
+          -59.6,
+          -35.9,
+          -0.7
+        ],
+        [
+          -33.3,
+          -5.9,
+          17.6
+        ]
+      ],
+      "centroid": [
+        -45.8,
+        -21.3,
+        8
+      ],
+      "labels": {},
+      "ontology": {
+        "atlasLabels": [
+          65
+        ]
+      },
+      "lod": {
+        "file": "meshes/cerebrum/dkt-transverse-temporal-l.lod.glb",
+        "bytes": 17608,
+        "triangles": 2304
+      },
+      "edition": "public",
+      "upstreamFile": "meshes/cerebrum/dkt-transverse-temporal-l.lod.glb",
+      "sha256": "f7913f6ac095a0c430b77df8e9b86c2180a394921a100c59dba63cd298e04c91"
+    },
+    {
+      "id": "dkt-transverse-temporal-r",
+      "structureId": "gyrus-heschl",
+      "name": "Transverse temporal gyrus (Heschl) (R)",
+      "system": "cerebrum",
+      "subsystem": "lobe-temporal",
+      "side": "right",
+      "source": "cerebra",
+      "license": "CC0-1.0",
+      "nc": false,
+      "alignment": "warped-sym-to-asym",
+      "file": "dkt-transverse-temporal-r.glb",
+      "bytes": 18464,
+      "triangles": 2430,
+      "compression": "meshopt",
+      "colour": "#e1dab5",
+      "opacity": 1,
+      "visible": true,
+      "bbox": [
+        [
+          33.5,
+          -31.9,
+          -1.6
+        ],
+        [
+          57.5,
+          -3.9,
+          17.6
+        ]
+      ],
+      "centroid": [
+        45.3,
+        -18.2,
+        7.7
+      ],
+      "labels": {},
+      "ontology": {
+        "atlasLabels": [
+          14
+        ]
+      },
+      "lod": {
+        "file": "meshes/cerebrum/dkt-transverse-temporal-r.lod.glb",
+        "bytes": 18464,
+        "triangles": 2430
+      },
+      "edition": "public",
+      "upstreamFile": "meshes/cerebrum/dkt-transverse-temporal-r.lod.glb",
+      "sha256": "b967046aada79cb182f013197c6272cd76553c5739b001093ac712782bdaf3e5"
+    },
+    {
+      "id": "amygdala-r",
+      "structureId": "amygdala",
+      "name": "Amygdala (R)",
+      "system": "cerebrum",
+      "subsystem": "limbic",
+      "side": "right",
+      "source": "massp",
+      "license": "Apache-2.0",
+      "nc": false,
+      "alignment": "native-mni",
+      "file": "amygdala-r.glb",
+      "bytes": 28272,
+      "triangles": 4000,
+      "compression": "meshopt",
+      "colour": "#c69a8e",
+      "opacity": 1,
+      "visible": true,
+      "bbox": [
+        [
+          16.3,
+          -10.5,
+          -32.4
+        ],
+        [
+          34,
+          2.5,
+          -11.6
+        ]
+      ],
+      "centroid": [
+        25.1,
+        -4,
+        -21.8
+      ],
+      "labels": {
+        "anat": [
+          214
+        ]
+      },
+      "ontology": {
+        "atlasLabels": [
+          20
+        ]
+      },
+      "upstreamFile": "meshes/cerebrum/amygdala-r.glb",
+      "sha256": "32664932e982dcc61bc71b30edcb9ab9b753bf6c93984d2559a20a1aeac1ffb8"
+    },
+    {
+      "id": "hippocampus-l",
+      "structureId": "hippocampus",
+      "name": "Hippocampus (L)",
+      "system": "cerebrum",
+      "subsystem": "limbic",
+      "side": "left",
+      "source": "mni_aseg",
+      "license": "MNI-FreeSurfer",
+      "nc": false,
+      "alignment": "native-mni",
+      "file": "hippocampus-l.glb",
+      "bytes": 53760,
+      "triangles": 8000,
+      "compression": "meshopt",
+      "colour": "#cc968f",
+      "opacity": 1,
+      "visible": true,
+      "bbox": [
+        [
+          -38.5,
+          -43.1,
+          -31.3
+        ],
+        [
+          -11.3,
+          -5.5,
+          5.5
+        ]
+      ],
+      "centroid": [
+        -23.9,
+        -23.5,
+        -13.1
+      ],
+      "labels": {
+        "anat": [
+          12
+        ]
+      },
+      "ontology": {
+        "atlasLabels": [
+          17
+        ]
+      },
+      "upstreamFile": "meshes/cerebrum/hippocampus-l.glb",
+      "sha256": "b3ee6dd98cdf91fea3ff5d892e5722c945a6cd62301a511a5f922471a83859a5"
+    },
+    {
+      "id": "hippocampus-r",
+      "structureId": "hippocampus",
+      "name": "Hippocampus (R)",
+      "system": "cerebrum",
+      "subsystem": "limbic",
+      "side": "right",
+      "source": "mni_aseg",
+      "license": "MNI-FreeSurfer",
+      "nc": false,
+      "alignment": "native-mni",
+      "file": "hippocampus-r.glb",
+      "bytes": 53676,
+      "triangles": 8000,
+      "compression": "meshopt",
+      "colour": "#cc968f",
+      "opacity": 1,
+      "visible": true,
+      "bbox": [
+        [
+          10.3,
+          -41.5,
+          -30.4
+        ],
+        [
+          39.2,
+          -5.4,
+          6.7
+        ]
+      ],
+      "centroid": [
+        25.7,
+        -22.8,
+        -12.6
+      ],
+      "labels": {
+        "anat": [
+          13
+        ]
+      },
+      "ontology": {
+        "atlasLabels": [
+          53
+        ]
+      },
+      "upstreamFile": "meshes/cerebrum/hippocampus-r.glb",
+      "sha256": "7febd957b8893b89ad8635566593697becdc0227864dafd89a68090945772048"
+    },
+    {
+      "id": "amygdala-l",
+      "structureId": "amygdala",
+      "name": "Amygdala (L)",
+      "system": "cerebrum",
+      "subsystem": "limbic",
+      "side": "left",
+      "source": "massp",
+      "license": "Apache-2.0",
+      "nc": false,
+      "alignment": "native-mni",
+      "file": "amygdala-l.glb",
+      "bytes": 28344,
+      "triangles": 4000,
+      "compression": "meshopt",
+      "colour": "#c69a8e",
+      "opacity": 1,
+      "visible": true,
+      "bbox": [
+        [
+          -34.5,
+          -11.5,
+          -32.5
+        ],
+        [
+          -15.7,
+          1.5,
+          -11.5
+        ]
+      ],
+      "centroid": [
+        -24.6,
+        -5.2,
+        -21.4
+      ],
+      "labels": {
+        "anat": [
+          213
+        ]
+      },
+      "ontology": {
+        "atlasLabels": [
+          19
+        ]
+      },
+      "upstreamFile": "meshes/cerebrum/amygdala-l.glb",
+      "sha256": "4d5f89fac41cfbdcc0b203638dbef4303aa16140c0b1d06d229c1e8f6e93bd2e"
+    }
+  ],
+  "deepSources": {
+    "massp": {
+      "name": "MASSP multi-contrast subcortical parcellation",
+      "license": "Apache-2.0",
+      "citation": "Bazin PL et al. Multi-contrast anatomical subcortical structures parcellation (MASSP). eLife 2020.",
+      "url": "https://templateflow.s3.amazonaws.com/tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_res-01_atlas-MASSP20_dseg.nii.gz",
+      "urls": [
+        "https://templateflow.s3.amazonaws.com/tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_res-01_atlas-MASSP20_dseg.nii.gz",
+        "https://templateflow.s3.amazonaws.com/tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_res-01_atlas-MASSP20_dseg.tsv"
+      ],
+      "manual": false,
+      "generated": false,
+      "api": "",
+      "files": {
+        "tpl-MNI152NLin2009cAsym_res-01_atlas-MASSP20_dseg.nii.gz": "cacd6e263bab6a42483afc1887b175c0d49b1174b2388e23ef553ab38006d8e3",
+        "tpl-MNI152NLin2009cAsym_res-01_atlas-MASSP20_dseg.tsv": "bedfe29cd1afd171aeffa9c87e8c87f5fbae51fa67f180018cb5baa319c7930c"
+      }
+    },
+    "mni_aseg": {
+      "name": "FreeSurfer aseg segmentation of the MNI152NLin2009cAsym template",
+      "license": "MNI-FreeSurfer",
+      "citation": "FreeSurfer aseg segmentation of the MNI152NLin2009cAsym template (TemplateFlow).",
+      "url": "https://templateflow.s3.amazonaws.com/tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_res-01_seg-aseg_dseg.nii.gz",
+      "urls": [
+        "https://templateflow.s3.amazonaws.com/tpl-MNI152NLin2009cAsym/tpl-MNI152NLin2009cAsym_res-01_seg-aseg_dseg.nii.gz"
+      ],
+      "manual": false,
+      "generated": false,
+      "api": "",
+      "files": {
+        "tpl-MNI152NLin2009cAsym_res-01_seg-aseg_dseg.nii.gz": "0bb033414fbbd6df626d063b73801a14c71fb33b83204585f2aa1fbb4aef60dd"
+      }
+    }
+  },
+  "deepLicenses": {
+    "Apache-2.0": {
+      "name": "Apache License 2.0 (the MASSP project's own licence; the distributor of the file states none)",
+      "url": "https://www.apache.org/licenses/LICENSE-2.0",
+      "attribution": "MASSP subcortical parcellation, (c) Pierre-Louis Bazin, University of Amsterdam. The file used here is TemplateFlow's tpl-MNI152NLin2009cAsym_res-01_atlas-MASSP20_dseg.nii.gz, which arrives with no licence and no copyright notice of its own -- TemplateFlow publishes no sidecar for it. Apache License 2.0 is the licence the MASSP authors placed on the atlas priors the parcellation is produced from (doi:10.21942/uva.12074175), and it is recorded here as the best-evidenced upstream terms rather than as a statement by the distributor. The meshes derived from it are modified: the parcellation was read on the MNI152NLin2009cAsym grid, meshed by signed-distance field, smoothed, decimated and welded as the manifest records per mesh.",
+      "nc": false,
+      "noRedistribution": false,
+      "text": "licenses/Apache-2.0.txt"
+    },
+    "MNI-FreeSurfer": {
+      "name": "MNI/McGill template licence; the labels are a FreeSurfer segmentation for which no licence is stated",
+      "url": "https://templateflow.s3.amazonaws.com/tpl-MNI152NLin2009cAsym/LICENSE",
+      "attribution": "FreeSurfer aseg segmentation of the MNI152NLin2009cAsym template, distributed by TemplateFlow, which states no separate licence for this file. Template (c) Louis Collins, McGill University (Fonov et al. 2011); the segmentation was produced with FreeSurfer (Fischl et al. 2002), whose licence permits use, derivative works and redistribution and is silent on the outputs of running it.",
+      "nc": false,
+      "noRedistribution": false,
+      "text": "licenses/MNI-FreeSurfer.txt"
+    }
+  }
+}
